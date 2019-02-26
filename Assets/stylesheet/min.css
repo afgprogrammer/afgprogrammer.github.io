@@ -1,0 +1,30 @@
+/*****************
+*
+*    Theme Name: 'Blood'
+*    Author: Mohammad Rahmani
+*    Author URL: http://mohammadrahmani.com
+*
+*/
+
+@import 'Utils/normalize.css';
+@import '../lib/bootstrap-4/bootstrap-grid.min.css';
+@import '../lib/animation/animate.min.css';
+@import '../lib/font-awesome/css/font-awesome.min.css';
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+/* core css */
+@import 'Utils/core.css';@import 'Utils/color.css';@import 'Utils/spacers.css';@import 'Utils/transition.css';
+
+body {background: #fff;font-size: 14px;overflow-x: hidden;direction: ltr;text-align: left;}
+* {font-family: 'Nunito', sans-serif;font-weight: 300;}
+input {font-family: 'Nunito', sans-serif !important;font-weight: 300;}
+*, *:before, *::after {box-sizing: border-box;-webkit-box-sizing: border-box;}
+
+@media screen and (max-width: 400px) {
+    
+}
+@media screen and (max-width: 1400px) {
+    .main-content h1 {
+        font-size: 3em;
+    }
+}
