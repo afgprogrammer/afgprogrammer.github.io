@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5f62de4962a986df460c7655ecbf4dcc.js"
+  "/precache-manifest.baf5ceb027b5d735a0c21503f0243a54.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "blog-2021"});
