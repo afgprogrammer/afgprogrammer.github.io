@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="background relative w-full h-full filter blur-2xl">
-      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-60 top-36 rounded-full bg-yellow-400 custom-animate-pulse"></div>
-      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-96 top-72 rounded-full bg-blue-600 custom-animate-pulse"></div>
-      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-60 top-96 rounded-full bg-red-600 custom-animate-pulse"></div>
+      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 top-36 rounded-full bg-yellow-300 custom-animate-pulse"></div>
+      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-72 top-80 rounded-full bg-blue-600 custom-animate-pulse"></div>
+      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 top-96 rounded-full bg-red-600 custom-animate-pulse"></div>
     </div>
     <div class="foreground">
       <section class="mx-auto max-w-6xl tracking-wide">
