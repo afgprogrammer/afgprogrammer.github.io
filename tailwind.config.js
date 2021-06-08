@@ -6,12 +6,18 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
   ],
-  darkMode: true, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      display: ['Sora', 'sans-serif'],
+      body: ['Sora', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      textOpacity: ['dark']
+    },
   },
   plugins: [],
 }
