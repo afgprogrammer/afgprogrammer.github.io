@@ -1,9 +1,9 @@
 <template>
   <ul class="m-0 flex" v-if="links && links.length > 0">
     <li v-for="(link, index) in links" :key="index" class="relative mr-2">
-      <router-link :to="link.to" :title="link.title" class="text-gray-500 text-sm last:text-gray-900">
+      <a :href="link.to" :title="link.title" class="text-gray-500 text-sm last:text-gray-900 last:font-medium">
         <span>{{ link.title }}</span>
-      </router-link> <span class="text-gray-500 ml-2" v-if="index < links.length - 1">/</span>
+      </a> <span class="text-gray-500 ml-2" v-if="index < links.length - 1">/</span>
     </li>
   </ul>
 </template>
