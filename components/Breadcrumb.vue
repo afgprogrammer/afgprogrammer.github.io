@@ -1,5 +1,5 @@
 <template>
-  <ul class="m-0 flex" v-if="links && links.length > 0">
+  <ul class="m-0 flex flex-wrap" v-if="links && links.length > 0">
     <li v-for="(link, index) in links" :key="index" class="relative mr-2">
       <a :href="link.to" :title="link.title" class="text-gray-500 text-sm last:text-gray-900 last:font-medium">
         <span>{{ link.title }}</span>
