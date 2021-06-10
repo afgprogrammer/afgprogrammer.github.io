@@ -6,14 +6,14 @@
       <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 top-96 rounded-full bg-red-600 custom-animate-pulse"></div>
     </div>
     <div class="foreground">
-      <section class="mx-auto max-w-6xl tracking-wide">
-        <div class="h-60"></div>
-        <h1 class="text-6xl font-semibold"> Hello!
+      <section class="mx-auto max-w-6xl tracking-wide px-6 xl:px-0">
+        <div class="h-40 lg:h-60"></div>
+        <h1 class="text-5xl lg:text-6xl font-semibold"> Hello!
           <div class="h-3"></div>
           I'm Mohammad.
         </h1>
         <div class="max-w-6xl">
-          <h3 class="text-2xl font-light text-gray-700 mt-6 leading-9">
+          <h3 class="text-lg lg:text-2xl font-light text-gray-700 mt-6 leading-9">
             A Full-stack Developer who writes code. I work across Software Design, Software Development and prototyping to create intuitive development for products.
             I am currently working as 
             Sr. Software Developer at <a href="https://www.netlinks.af" title="@netlinks" target="_blank" class="text-blue-800">@netlinks</a> company based in Kabul, Afghanistan. <br>
@@ -23,7 +23,7 @@
         </div>
         <div class="h-60"></div>
         <div class="flex justify-between items-center flex-wrap">
-          <div>
+          <div class="mb-5 lg:mb-0">
             <span class="text-base font-light text-gray-600">Like my work?</span>
             <a href="https://github.com/afgprogrammer" title="Support me on GitHub - afgprogrammer">
               <h4 class="text-sm text-gray-900 font-medium m-0 mt-2">Support me on GitHub</h4>
@@ -45,7 +45,59 @@
 
 <script>
 export default {
-
+   head: {
+    title: 'Afgprogrammer - Mohammad Rahmani',
+    meta: [
+      { 
+        name: 'author', 
+        content: 'Mohammad Rahmani - afgprogrammer' 
+      },
+      {
+        name: 'description',
+        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile and web application development. Mohamnmd Rahmani - afgprogrammer',
+      },
+      {
+        key: 'og:title',
+        property: 'og:title',
+        content: 'Mohammad Rahmani - Afgprogrammer',
+      },
+      {
+        key: 'og:description',
+        property: 'og:description',
+        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile and web application development. Mohamnmd Rahmani - afgprogrammer',
+      },
+      {
+        key: 'og:url',
+        property: 'og:url',
+        content: 'https://afgprogrammer.com',
+      },
+      {
+        key: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Mohammad Rahmani - Afgprogrammer',
+      },
+      {
+        key: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
+        key: 'twitter:creator',
+        name: 'twitter:creator',
+        content: '@afgprogrammer',
+      },
+      {
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile and web application development. Mohamnmd Rahmani - afgprogrammer',
+      },
+      {
+        key: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://afgprogrammer.com/images/afgprogrammer-logo.png',
+      }
+    ]
+  },
 }
 </script>
 
