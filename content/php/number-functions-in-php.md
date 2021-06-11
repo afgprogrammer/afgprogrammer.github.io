@@ -2,7 +2,7 @@
 title: Number Functions in PHP
 date: 2021-02-10
 slug: number-functions-in-php
-image: '/images/articles/number-functions-in-php.png'
+image: '/images/php/number-functions-in-php.png'
 tags: ['php', 'numbers-in-php']
 description: "PHP Numbers
 One thing to notice about PHP is that it provides automatic data type conversion.

@@ -2,7 +2,7 @@
 title: Conditional Statements In PHP
 date: 2021-02-14
 slug: conditional-statements-in-php
-image: '/images/articles/conditional-statements-in-php.png'
+image: '/images/php/conditional-statements-in-php.png'
 tags: ['php', 'conditions']
 description: "Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.<br><br>
 

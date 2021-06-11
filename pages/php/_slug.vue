@@ -35,14 +35,14 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+    const article = await $content('php', params.slug).fetch()
 
     return { article }
   },
 
   head () {
     return {
-      title: this.article.title,
+      title: `${this.article.title} - afgprogrammer`,
       meta: [
         { 
           name: 'author', 
@@ -115,8 +115,8 @@ export default {
           to: '/'
         },
         {
-          title: 'Blog',
-          to: '/blog'
+          title: 'PHP',
+          to: '/php'
         },
         {
           title: this.article.title,

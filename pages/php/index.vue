@@ -13,7 +13,7 @@
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
       <div v-for="(article, index) of articles" :key="index">
-        <router-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+        <router-link :to="{ name: 'php-slug', params: { slug: article.slug } }">
           <img :src="article.image" :alt="article.title" class="rounded-t-lg"/>
           <div class="mt-5">
             <h2 class="text-xl font-medium text-gray-800">{{ article.title }}</h2>
@@ -28,7 +28,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    let articles = await $content('articles')
+    let articles = await $content('php')
       .only(['title', 'description', 'image', 'slug', 'date', 'tags'])
       .sortBy('date', 'desc')
       .fetch()
@@ -39,7 +39,7 @@ export default {
   },
 
   head: {
-    title: 'Afgprogrammer - Blog',
+    title: 'Learn PHP in a better way - afgprogrammer blog',
     meta: [
       { 
         name: 'author', 
@@ -47,17 +47,17 @@ export default {
       },
       {
         name: 'description',
-        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile and web application development. Mohamnmd Rahmani - afgprogrammer',
+        content: 'PHP is a widely used server-side programming language that’s become increasingly fast and powerful over the years. afgprogrammer.com is a free interactive PHP tutorial for people who want to learn PHP, fast.',
       },
       {
         key: 'og:title',
         property: 'og:title',
-        content: 'Afgprogrammer - Blog',
+        content: 'Learn PHP in a better way - afgprogrammer blog',
       },
       {
         key: 'og:description',
         property: 'og:description',
-        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile and web application development. Mohamnmd Rahmani - afgprogrammer',
+        content: 'PHP is a widely used server-side programming language that’s become increasingly fast and powerful over the years. afgprogrammer.com is a free interactive PHP tutorial for people who want to learn PHP, fast.',
       },
       {
         key: 'og:url',
@@ -67,7 +67,7 @@ export default {
       {
         key: 'twitter:title',
         name: 'twitter:title',
-        content: 'Afgprogrammer - Blog',
+        content: 'Learn PHP in a better way - afgprogrammer blog',
       },
       {
         key: 'twitter:card',
@@ -82,7 +82,7 @@ export default {
       {
         key: 'twitter:description',
         name: 'twitter:description',
-        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile and web application development. Mohamnmd Rahmani - afgprogrammer',
+        content: 'PHP is a widely used server-side programming language that’s become increasingly fast and powerful over the years. afgprogrammer.com is a free interactive PHP tutorial for people who want to learn PHP, fast.',
       }
     ]
   },
@@ -95,8 +95,8 @@ export default {
           to: '/'
         },
         {
-          title: 'Blog',
-          to: '/blog'
+          title: 'PHP',
+          to: '/php'
         }
       ]
     }
