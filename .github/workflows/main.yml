@@ -3,7 +3,7 @@ name: Generate xml sitemap
 on:
   push:
     branches:
-      - gh-pages
+      - master
 
 jobs:
   sitemap_job:
