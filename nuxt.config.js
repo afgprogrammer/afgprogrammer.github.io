@@ -2,9 +2,9 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   // ssr: false,
 
-  // server: {
-  //   host: '172.30.10.12'
-  // },
+  server: {
+    host: '172.30.10.12'
+  },
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
