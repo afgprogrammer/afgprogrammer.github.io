@@ -3,7 +3,7 @@ name: Generate xml sitemap
 on:
   push:
     branches:
-      - master
+      - gh-pages
 
 jobs:
   sitemap_job:
@@ -11,7 +11,7 @@ jobs:
     name: Generate a sitemap
     steps:
     - name: Checkout the repo
-      uses: actions/checkout@gh-pages
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0 
     - name: Generate the sitemap
