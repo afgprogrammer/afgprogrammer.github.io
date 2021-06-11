@@ -13,13 +13,13 @@
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
       <div v-for="(article, index) of articles" :key="index">
-        <a :href="{ name: 'php-slug', params: { slug: article.slug } }">
+        <router-link :to="{ name: 'php-slug', params: { slug: article.slug } }">
           <img :src="article.image" :alt="article.title" class="rounded-t-lg"/>
           <div class="mt-5">
             <h2 class="text-xl font-medium text-gray-800">{{ article.title }}</h2>
             <p class="mt-3 text-gray-600 text-sm tracking-wide">{{ article.description.substring(0, 150) }} ...</p>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
     <div class="h-28"></div>
@@ -62,7 +62,7 @@ export default {
       {
         key: 'og:url',
         property: 'og:url',
-        content: 'https://afgprogrammer.com/blog',
+        content: 'https://afgprogrammer.com/php',
       },
       {
         key: 'twitter:title',
