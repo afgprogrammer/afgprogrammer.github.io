@@ -13,13 +13,13 @@
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
       <div v-for="(article, index) of articles" :key="index">
-        <router-link :to="{ name: 'php-slug', params: { slug: article.slug } }">
+        <a :href="{ name: 'php-slug', params: { slug: article.slug } }">
           <img :src="article.image" :alt="article.title" class="rounded-t-lg"/>
           <div class="mt-5">
             <h2 class="text-xl font-medium text-gray-800">{{ article.title }}</h2>
             <p class="mt-3 text-gray-600 text-sm tracking-wide">{{ article.description.substring(0, 150) }} ...</p>
           </div>
-        </router-link>
+        </a>
       </div>
     </div>
     <div class="h-28"></div>
