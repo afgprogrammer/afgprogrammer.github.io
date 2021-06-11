@@ -4,6 +4,7 @@ date: 2021-02-14 14:22:52
 slug: arrays-in-php
 image: '/images/php/arrays-in-php.png'
 tags: ['php', 'array']
+instagram: "https://www.instagram.com/p/CLRhxbuDs_x/?utm_source=ig_web_copy_link"
 summery: "An array is a data structure that stores one or more similar type of values in a single value. For example if you want to store 100 numbers then instead of defining 100 variables its easy to define an array of 100 length."
 description: "An array is a data structure that stores one or more similar type of values in a single value. For example if you want to store 100 numbers then instead of defining 100 variables its easy to define an array of 100 length.<br><br>
 

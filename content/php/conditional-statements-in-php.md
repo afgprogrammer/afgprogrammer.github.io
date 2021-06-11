@@ -4,6 +4,7 @@ date: 2021-02-14
 slug: conditional-statements-in-php
 image: '/images/php/conditional-statements-in-php.png'
 tags: ['php', 'conditions']
+instagram: "https://www.instagram.com/p/CLRhNqpjQyn/?utm_source=ig_web_copy_link"
 summery: "Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this."
 description: "Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.<br><br>
 

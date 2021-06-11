@@ -4,6 +4,7 @@ date: 2021-06-11 17:21:00
 slug: regular-expressions-in-php
 image: '/images/php/regular-expressions-in-php.png'
 tags: ['php', 'regular-expressions']
+instagram: "https://www.instagram.com/p/CP-yLWIDR8B/?utm_source=ig_web_copy_link"
 summery: "A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for."
 description: "A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for.<br><br>
 

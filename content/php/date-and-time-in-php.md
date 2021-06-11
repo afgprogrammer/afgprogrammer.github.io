@@ -4,6 +4,7 @@ date: 2021-06-11 17:22:00
 slug: date-and-time-in-php
 image: '/images/php/date-and-time-in-php.png'
 tags: ['php', 'date']
+instagram: "https://www.instagram.com/p/CP-yTgcDQRo/?utm_source=ig_web_copy_link"
 summery: "You'll often want to work with dates and times when developing websites. For example, you might need to show the last modified date on a post or mention how long ago a reader wrote some comment."
 description: "The PHP date() function formats a timestamp to a more readable date and time.
 <br><br>

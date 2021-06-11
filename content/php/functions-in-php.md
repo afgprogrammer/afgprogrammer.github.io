@@ -4,6 +4,7 @@ date: 2021-06-11 17:20:00
 slug: functions-in-php
 image: '/images/php/functions-in-php.png'
 tags: ['php', 'functions']
+instagram: "https://www.instagram.com/p/CP-xxGID_sJ/?utm_source=ig_web_copy_link"
 summery: "PHP functions are similar to other programming languages. A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value."
 description: "PHP functions are similar to other programming languages. A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value.<br><br>
 

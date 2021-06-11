@@ -13,10 +13,15 @@
           <h1 class="text-4xl font-bold tracking-wide">{{ article.title }}</h1>
           <div class="mt-8 text-lg text-gray-700 font-light" v-html="article.description"></div>
         </div>
-        <div class="self-end mt-9 lg:mt-0">
-          <span class="text-xs text-gray-600">{{ formatDate(article.date) }}</span>
+        <div class="self-end grid grid-cols-2 mt-9 lg:mt-0">
           <div>
-            <span v-for="(tag, index) in article.tags" :key="index" class="mr-5 text-blue-900">{{ tag }}</span>
+            <span class="text-xs text-gray-600">{{ formatDate(article.date) }}</span>
+            <div>
+              <span v-for="(tag, index) in article.tags" :key="index" class="mr-5 text-blue-900">{{ tag }}</span>
+            </div>
+          </div>
+          <div class="self-end justify-self-end">
+            <a class="text-sm text-blue-900" :href="article.instagram" target="_blank" title="language.php - Instagram">Instagram</a>
           </div>
         </div>
       </div>
