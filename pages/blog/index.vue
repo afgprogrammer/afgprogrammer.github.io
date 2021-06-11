@@ -7,7 +7,7 @@
     <ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-2490274469917078"
-      data-ad-slot="3173124995"
+      data-ad-slot="9238225491"
       data-ad-format="auto"
       data-full-width-responsive="true"></ins>
     <div class="h-4"></div>
