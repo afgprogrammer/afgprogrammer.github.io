@@ -4,19 +4,12 @@ date: 2021-06-11 17:20:00
 slug: functions-in-php
 image: '/images/php/functions-in-php.png'
 tags: ['php', 'functions']
-description: "The real power of PHP comes from its functions.
+summery: "PHP functions are similar to other programming languages. A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value."
+description: "PHP functions are similar to other programming languages. A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value.<br><br>
 
-- PHP has over 1000 built-in functions that can be called directly, from within a script, to perform a specific task.
+You already have seen many functions like `echo()` and `print_r()` etc. They are built-in functions but PHP gives you option to create your own functions as well.<br><br>
 
-PHP User Defined Functions:
-Besides the built-in PHP functions, it is possible to create your own functions.
+Its very easy to create your own PHP function. Suppose you want to create a PHP function which will simply write a simple message on your browser when you will call it. <br><br>
 
-- A function is a block of statements that can be used repeatedly in a program.
-- A function will not execute automatically when a page loads.
-- A function will be executed by a call to the function.
-
-PHP Function Arguments:
-Information can be passed to functions through arguments. An argument is just like a variable.
-
-Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma."
+Following example creates a function called `sayHello()` and then calls it just after creating it."
 ---

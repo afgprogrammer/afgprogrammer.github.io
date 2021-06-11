@@ -17,7 +17,7 @@
           <img :src="article.image" :alt="article.title" class="rounded-t-lg"/>
           <div class="mt-5">
             <h2 class="text-xl font-medium text-gray-800">{{ article.title }}</h2>
-            <p class="mt-3 text-gray-600 text-sm tracking-wide">{{ article.description.substring(0, 150) }} ...</p>
+            <p class="mt-3 text-gray-600 text-sm">{{ article.summery.substring(0, 150) }} ...</p>
           </div>
         </router-link>
       </div>
@@ -29,7 +29,7 @@
 export default {
   async asyncData({ $content }) {
     let articles = await $content('php')
-      .only(['title', 'description', 'image', 'slug', 'date', 'tags'])
+      .only(['title', 'summery', 'image', 'slug', 'date', 'tags'])
       .sortBy('date', 'desc')
       .fetch()
 
