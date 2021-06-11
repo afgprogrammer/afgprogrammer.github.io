@@ -6,7 +6,7 @@
     <div class="h-4"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div>
-        <img :src="article.image" :alt="article.title">
+        <img :src="article.image" :alt="article.title" class="rounded-t-lg">
       </div>
       <div class="grid">
         <div>
