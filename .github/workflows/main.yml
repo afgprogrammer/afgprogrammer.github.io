@@ -11,7 +11,7 @@ jobs:
     name: Generate a sitemap
     steps:
     - name: Checkout the repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@gh-pages
       with:
         fetch-depth: 0 
     - name: Generate the sitemap
@@ -20,7 +20,7 @@ jobs:
       with:
         base-url-path: https://afgprogrammer.com/
     - name: Create Pull Request
-      uses: afgprogrammer/gh-pages@v3
+      uses: peter-evans/create-pull-request@v3
       with:
         title: "Automated sitemap update"
         body: > 
