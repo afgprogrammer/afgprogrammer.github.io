@@ -14,6 +14,7 @@
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^4.0.1",
     "postcss": "^8.2.8"
   }
