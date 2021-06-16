@@ -55,7 +55,7 @@ export default {
         },
         {
           name: 'description',
-          content: this.article.description
+          content: this.article.summery
         },
         {
           key: 'og:title',
@@ -70,7 +70,7 @@ export default {
         {
           key: 'og:description',
           property: 'og:description',
-          content: this.article.description,
+          content: this.article.summery,
         },
         {
           key: 'og:url',
@@ -86,7 +86,7 @@ export default {
         {
           key: 'twitter:description',
           name: 'twitter:description',
-          content: this.article.description,
+          content: this.article.summery,
         },
         {
           key: 'twitter:creator',
