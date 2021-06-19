@@ -27,12 +27,12 @@
       </div>
     </div>
     <div class="h-4"></div>
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-2490274469917078"
-      data-ad-slot="9238225491"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
+   <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2490274469917078"
+     data-ad-slot="4018468658"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
     <div class="h-4"></div>
     <!-- <nuxt-content :document="article" class="py-9"/> -->
   </article>
