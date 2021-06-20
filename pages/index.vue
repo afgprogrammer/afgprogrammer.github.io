@@ -1,33 +1,31 @@
 <template>
   <section>
     <div class="background relative w-full h-full filter blur-2xl">
-      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 xl:right-1/4 top-36 rounded-full bg-yellow-300 custom-animate-pulse"></div>
-      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-72 xl:right-1/3 top-80 rounded-full bg-blue-600 custom-animate-pulse"></div>
-      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 xl:right-1/4 top-96 rounded-full bg-red-600 custom-animate-pulse"></div>
+      <div class="absolute w-44 h-44 lg:w-52 lg:h-52 right-20 xl:right-1/3 top-60 rounded-full bg-yellow-300 custom-animate-pulse"></div>
+      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-72 xl:right-1/3 top-60 rounded-full bg-blue-600 custom-animate-pulse"></div>
+      <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 xl:right-1/4 top-64 rounded-full bg-red-600 custom-animate-pulse"></div>
     </div>
     <div class="foreground">
-      <section class="mx-auto max-w-6xl tracking-wide px-6 xl:px-0">
+      <section class="mx-auto max-w-7xl tracking-wide px-6 xl:px-0">
         <div class="h-40 lg:h-60"></div>
-        <h1 class="text-5xl lg:text-6xl font-semibold"> Hello!
-          <div class="h-3"></div>
-          I'm Mohammad.
+        <h1 class="text-5xl lg:text-8xl font-semibold">
+          A developer passionate about creating usfull and user friendly products
         </h1>
         <div class="max-w-6xl">
-          <h2 class="text-lg lg:text-2xl font-light text-gray-700 mt-6 leading-9">
-            A Full-stack Developer who writes code. I work across Software Design, Software Development and prototyping to create intuitive development for products.
-            I am currently working as 
-            Sr. Software Developer at <a href="https://www.netlinks.af" title="@netlinks" target="_blank" class="text-blue-800">@netlinks</a> company based in Kabul, Afghanistan. <br>
-            I love open-source and try to develop useful and tangible software.
-            I love to learn and discover all things Flutter, PHP, JavaScript, HTML, CSS, Laravel and VueJs.
+          <h2 class="text-lg lg:text-2xl font-light text-gray-600 mt-9 leading-10">
+            currently working as 
+            Sr. Software Developer at <a href="https://www.netlinks.af" title="@netlinks" target="_blank" class="underline">NETLIKS Inc</a> based in Kabul, Afghanistan.<br>
+            <!-- <div class="h-10"></div>
+            <a class="text-base underline" href="https://github.com/afgprogrammer" title="github - afgprogrmmer" target="_blank">View Work</a> -->
           </h2>
         </div>
         <div class="h-32"></div>
          <div>
-          <span class="font-light text-sm">
-            Follow me on &nbsp;
-            <a href="https://twitter.com/afgprogrammer" title="afgprogrammer - Twitter Page" class="underline text-gray-700" target="_blank"><span>Twitter</span></a>, &nbsp;
-            <a href="https://instagram.com/afgprogrammer" title="afgprogrammer - Instagram Page" class="underline text-gray-700" target="_blank"><span>Instagram</span></a>, &nbsp;
-            <a href="https://youtube.com/afgprogrammer" title="afgprogrammer - Youtube Channel" class="underline text-gray-700" target="_blank"><span>Youtube</span></a>.</span>
+          <span class="font-light text-base">
+            Follow me on&nbsp;
+            <a href="https://youtube.com/afgprogrammer" title="afgprogrammer - Youtube Channel" class="underline text-gray-700" target="_blank"><span>Youtube</span></a>,&nbsp;
+            <a href="https://instagram.com/afgprogrammer" title="afgprogrammer - Instagram Page" class="underline text-gray-700" target="_blank"><span>Instagram</span></a>.
+          </span>
         </div>
         <div class="h-6"></div>
         <div class="flex flex-col">
@@ -38,7 +36,7 @@
             </a>
           </div>
         </div>
-        <div class="h-40"></div>
+        <div class="h-20"></div>
       </section>
     </div>
   </section>
