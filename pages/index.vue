@@ -9,7 +9,7 @@
       <section class="mx-auto max-w-7xl tracking-wide px-6 xl:px-0">
         <div class="h-40 lg:h-60"></div>
         <h1 class="text-5xl lg:text-8xl font-semibold">
-          A developer passionate about creating usfull and user friendly products
+          A developer passionate about creating usfull and user friendly softwares
         </h1>
         <div class="max-w-6xl">
           <h2 class="text-lg lg:text-2xl font-light text-gray-600 mt-9 leading-10">
