@@ -14,7 +14,7 @@
         <div class="max-w-6xl">
           <h2 class="text-lg lg:text-2xl font-light text-gray-600 mt-9 leading-10">
             currently working as 
-            Sr. Software Developer at <a href="https://www.netlinks.af" title="@netlinks" target="_blank" class="underline">NETLIKS Inc</a> based in Kabul, Afghanistan.<br>
+            Sr. Software Developer at <a href="https://www.netlinks.af" title="@netlinks" target="_blank" class="underline">NETLINKS Inc</a> based in Kabul, Afghanistan.<br>
             <!-- <div class="h-10"></div>
             <a class="text-base underline" href="https://github.com/afgprogrammer" title="github - afgprogrmmer" target="_blank">View Work</a> -->
           </h2>
