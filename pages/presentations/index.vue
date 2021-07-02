@@ -37,7 +37,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    let presentations = await $content('presentation')
+    let presentations = await $content('presentations')
       .only(['title', 'description', 'image', 'slug', 'date', 'tags'])
       .sortBy('date', 'desc')
       .fetch()
