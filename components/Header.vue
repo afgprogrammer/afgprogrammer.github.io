@@ -3,8 +3,8 @@
     <div class="flex justify-between items-center">
       <Logo></Logo>
       <nav class="text-gray-600 text-sm">
-        <router-link to="/" title="afgprogrammer-home" class="m-4" :class="{'font-medium text-gray-900': !isRouteActive('php')}">Home</router-link>
-        <a href="/php" title="afgprogrammer-blog" :class="{'font-medium text-gray-900': isRouteActive('php')}">PHP</a>
+        <a href="/php" title="afgprogrammer-blog" class="mx-4" :class="{'font-medium text-gray-900': isRouteActive('php')}">PHP</a>
+        <a href="/presentations" title="presentations - afgprogrammer" :class="{'font-medium text-gray-900': isRouteActive('presentation')}">Presentations</a>
       </nav>
     </div>
   </header>
