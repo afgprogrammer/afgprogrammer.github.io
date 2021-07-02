@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1625248905",layout:"presentation",error:a,serverRendered:true,routePath:"\u002Fpresentations\u002Fhow-to-write-clean-code-in-laravel",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"5c8c49f5"}}}}(null));
