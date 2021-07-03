@@ -7,8 +7,8 @@
     </div>
     <div class="foreground">
       <section class="mx-auto max-w-7xl tracking-wide px-6 xl:px-0">
-        <div class="h-40 lg:h-60"></div>
-        <h1 class="text-5xl lg:text-8xl font-semibold">
+        <div class="h-40 xl:h-60"></div>
+        <h1 class="text-5xl lg:text-6xl xl:text-8xl font-semibold">
           A developer passionate about creating useful and user friendly softwares
         </h1>
         <div class="max-w-6xl">
