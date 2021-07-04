@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="background relative w-full h-full filter blur-2xl">
+    <div class="background relative w-full h-full filter blur-2xl" :class="{'opacity-50': isFirefox}">
       <div class="absolute w-44 h-44 lg:w-52 lg:h-52 right-20 xl:right-1/3 top-60 rounded-full bg-yellow-300 custom-animate-pulse"></div>
       <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-72 xl:right-1/3 top-60 rounded-full bg-blue-600 custom-animate-pulse"></div>
       <div class="absolute w-44 h-44 lg:w-80 lg:h-80 right-20 xl:right-1/4 top-64 rounded-full bg-red-600 custom-animate-pulse"></div>
@@ -20,7 +20,7 @@
           </h2>
         </div>
         <div class="h-32"></div>
-         <div>
+        <div>
           <span class="font-light text-base">
             Follow me on&nbsp;
             <a href="https://youtube.com/afgprogrammer" title="afgprogrammer - Youtube Channel" class="underline text-gray-700" target="_blank"><span>Youtube</span></a>,&nbsp;
@@ -44,7 +44,24 @@
 
 <script>
 export default {
-   head: {
+  data() {
+    return {
+      isFirefox: false
+    }
+  },
+
+  mounted() {
+    this.checkBrowser()
+  },
+
+  methods: {
+    checkBrowser() {
+      if (navigator.userAgent.search("Firefox"))
+        this.isFirefox = true
+    }
+  },
+
+  head: {
     title: 'Afgprogrammer - Mohammad Rahmani',
     meta: [
       { 
@@ -96,7 +113,7 @@ export default {
         content: 'https://afgprogrammer.com/images/afgprogrammer-logo.png',
       }
     ]
-  },
+  }
 }
 </script>
 
