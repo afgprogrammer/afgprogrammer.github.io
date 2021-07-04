@@ -48,8 +48,8 @@ description: "Here you can find 20+ DOS and DON'TS which are usually ignored in 
   <div class="mx-auto px-10 lg:px-20">
     <div class="min-h-screen flex items-center">
       <div class="grid lg:grid-cols-4 gap-5 items-center">
-        <h2 class="text-2xl lg:text-3xl xl:text-5xl lg:leading-tight font-semibold col-span-12 lg:col-span-2">
-        1. Controller name SHOULD start with a noun (in singular form) followed by the word “Controller”.
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          1. Controller name SHOULD start with a noun (in singular form) followed by the word “Controller”.
         </h2>
         <img src="/images/presentations/laravel-clean-code/1.png" alt="controller" class="col-span-12 lg:col-span-2">
       </div>
@@ -61,7 +61,7 @@ description: "Here you can find 20+ DOS and DON'TS which are usually ignored in 
     <div class="min-h-screen flex items-center">
       <div class="grid lg:grid-cols-4 gap-5 items-center">
         <img src="/images/presentations/laravel-clean-code/2.png" alt="model" class="col-span-12 lg:col-span-2">
-        <h2 class="text-2xl lg:text-3xl xl:text-5xl lg:leading-tight font-semibold col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
           2. Model names SHOULD be in singular form with its first letter in uppercase
         </h2>
       </div>
@@ -72,10 +72,106 @@ description: "Here you can find 20+ DOS and DON'TS which are usually ignored in 
   <div class="mx-auto px-10 lg:px-20">
     <div class="min-h-screen flex items-center">
       <div class="grid lg:grid-cols-4 gap-5 items-center">
-        <h2 class="text-2xl lg:text-3xl xl:text-5xl lg:leading-tight font-semibold col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
           3. Migration filenames SHOULD follow to following pattern
         </h2>
         <img src="/images/presentations/laravel-clean-code/3.png" alt="migration" class="col-span-12 lg:col-span-2">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-600 to-yellow-500">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <img src="/images/presentations/laravel-clean-code/4.png" alt="migration" class="col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          4. Model properties SHOULD be in snake_case
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-500 to-yellow-600">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          5. Table column names SHOULD be in snake_case without the model name
+        </h2>
+        <img src="/images/presentations/laravel-clean-code/5.png" alt="migration" class="col-span-12 lg:col-span-2">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-600 to-yellow-500">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <img src="/images/presentations/laravel-clean-code/6.png" alt="migration" class="col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          6. hasOne or belongsTo relationship methods MUST be in singular form
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-500 to-yellow-600">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          7. You SHOULD Use Resource Controllers unless you have any particular reason not to do so
+        </h2>
+        <img src="/images/presentations/laravel-clean-code/7.png" alt="migration" class="col-span-12 lg:col-span-2">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-600 to-yellow-500">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <img src="/images/presentations/laravel-clean-code/8.png" alt="migration" class="col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          8. Methods should be in camelCase
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-500 to-yellow-600">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          9. Routes should be in plural form of the resource it is trying to manipulate and SHOULD be all lower-case
+        </h2>
+        <img src="/images/presentations/laravel-clean-code/9.png" alt="migration" class="col-span-12 lg:col-span-2">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-600 to-yellow-500">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <img src="/images/presentations/laravel-clean-code/10.png" alt="migration" class="col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          10. FormRequests have been around since Laravel 5.0 so Move validation from controllers to Request classes.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-gradient-to-b from-yellow-500 to-yellow-600">
+  <div class="mx-auto px-10 lg:px-20">
+    <div class="min-h-screen flex items-center">
+      <div class="grid lg:grid-cols-4 gap-5 items-center">
+        <img src="/images/presentations/laravel-clean-code/11.png" alt="migration" class="col-span-12 lg:col-span-2">
+        <h2 class="text-2xl lg:text-3xl xl:text-5xl xl:leading-tight font-semibold col-span-12 lg:col-span-2">
+          10. Let the code speak for itself. Your controllers will become bloated every time you validate. Write scalable code through dependency injection.
+        </h2>
       </div>
     </div>
   </div>
