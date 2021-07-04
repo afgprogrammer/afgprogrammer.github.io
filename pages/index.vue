@@ -56,7 +56,7 @@ export default {
 
   methods: {
     checkBrowser() {
-      if (navigator.userAgent.search("Firefox"))
+      if (navigator.userAgent.indexOf("Firefox") != -1)
         this.isFirefox = true
     }
   },
