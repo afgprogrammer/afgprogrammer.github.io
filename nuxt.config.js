@@ -52,8 +52,14 @@ export default {
   modules: [
     'nuxt-lazy-load',
     '@nuxt/content',
-    '@openafg/nuxt-fullpage'
+    ['@openafg/nuxt-fullpage', {
+      showIndicators: false
+    }]
   ],
+
+  content: {
+    liveEdit: false
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
