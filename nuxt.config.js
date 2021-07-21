@@ -52,6 +52,7 @@ export default {
   modules: [
     'nuxt-lazy-load',
     '@nuxt/content',
+    '@nuxtjs/axios',
     ['@openafg/nuxt-fullpage', {
       showIndicators: false
     }]
