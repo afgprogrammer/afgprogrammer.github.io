@@ -21,6 +21,7 @@
       <p class="text-center">
         <a href="https://youtube.com/afgprogrammer" title="">Watch more</a>
       </p>
+      <div class="h-28"></div>
     </div>
     <div class="loading" v-if="videos.length <= 0">
       <p class="text-center font-bold">
