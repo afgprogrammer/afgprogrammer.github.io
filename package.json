@@ -14,7 +14,8 @@
     "@openafg/nuxt-fullpage": "^1.0.5",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "nuxt-lazy-load": "^1.2.6"
+    "nuxt-lazy-load": "^1.2.6",
+    "prism-themes": "^1.8.0"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",

@@ -1,6 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  // ssr: false,
+  ssr: false,
 
   server: {
     host: '172.30.10.12'
@@ -59,7 +59,12 @@ export default {
   ],
 
   content: {
-    liveEdit: false
+    liveEdit: false,
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-dark.css'
+      }
+    }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
