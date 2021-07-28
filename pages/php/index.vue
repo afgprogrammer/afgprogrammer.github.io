@@ -39,7 +39,7 @@ export default {
   },
 
   head: {
-    title: 'Learn PHP in a better way - afgprogrammer blog',
+    title: 'Everyday PHP example - afgprogrammer',
     meta: [
       { 
         name: 'author', 
@@ -52,7 +52,7 @@ export default {
       {
         key: 'og:title',
         property: 'og:title',
-        content: 'Learn PHP in a better way - afgprogrammer blog',
+        content: 'Everyday PHP example - afgprogrammer',
       },
       {
         key: 'og:description',
@@ -67,7 +67,7 @@ export default {
       {
         key: 'twitter:title',
         name: 'twitter:title',
-        content: 'Learn PHP in a better way - afgprogrammer blog',
+        content: 'Everyday PHP example - afgprogrammer',
       },
       {
         key: 'twitter:card',
