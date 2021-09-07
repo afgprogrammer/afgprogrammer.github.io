@@ -35,7 +35,7 @@
 export default {
   data() {
     return {
-      key: 'AIzaSyBwXQk8IuFvMp5h47amTeh8shzz7fdNRFI',
+      key: 'AIzaSyDpHUxJizwqdIpunELIkuY2RPK7tyiUhH0',
       part: 'snippet',
       maxResults: '20',
       channelId: 'UCuXm84E6yWF0dIKmwvwc9sQ',
