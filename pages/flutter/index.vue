@@ -10,6 +10,10 @@
       data-ad-slot="5508803088"
       data-ad-format="auto"
       data-full-width-responsive="true"></ins>
+    <div class="h-8"></div>
+    <div class="py-3 text-center bg-gray-100 rounded-lg">
+      <a class="text-blue-600" href="https://github.com/afgprogrammer">Find repositories on my Github page @afgprogrammer</a>
+    </div>
     <div class="h-4"></div>
     <div v-if="videos.length">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-6 lg:px-0">
@@ -35,7 +39,7 @@
 export default {
   data() {
     return {
-      key: 'AIzaSyDpHUxJizwqdIpunELIkuY2RPK7tyiUhH0',
+      key: 'AIzaSyCPyfkfrlqKkP72gFU0x1FIgJzdVcB694I',
       part: 'snippet',
       maxResults: '20',
       channelId: 'UCuXm84E6yWF0dIKmwvwc9sQ',
