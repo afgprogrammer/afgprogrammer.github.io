@@ -1,0 +1,151 @@
+{
+  "data": [
+    {
+      "name": "Flutter Inspiration App UI Design - Day 1",
+      "summery": "Let\\'s work with ListView in an example application.",
+      "repository": "https://github.com/afgprogrammer/flutter-inspiration-app-ui",
+      "video": "https://youtu.be/zTTP8XBR6fI",
+      "tags": [
+        "UI", "ListView"
+      ]
+    },
+    {
+      "name": "Flutter Trip Application Design - Day 2",
+      "summery": "Let\\'s work with PageView and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-trip-app-ui",
+      "video": "https://youtu.be/uqm6U5_bcH0",
+      "tags": [
+        "UI", "PageView"
+      ]
+    },
+    {
+      "name": "Flutter Food Delivery Application Design - Day 3",
+      "summery": "Let's see how we can design a Food Delivery app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-food-delivery-app-ui",
+      "video": "https://youtu.be/lff21mmYhvQ",
+      "tags": [
+        "UI", "Delivery"
+      ]
+    },
+    {
+      "name": "Flutter Actors Profile Application Design - Day 4",
+      "summery": "Let's see how we can use SliverAppBar in Flutter and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-actors-profile-app-ui",
+      "video": "https://youtu.be/3scHvCgi9iY",
+      "tags": [
+        "UI", "Profile"
+      ]
+    },
+    {
+      "type": "ad"
+    },
+    {
+      "name": "Flutter Ripple Animation in a Map Application Design - Day 5",
+      "summery": "Let's try ripple animation in flutter.",
+      "repository": "https://github.com/afgprogrammer/Flutter-ripple-map-application",
+      "video": "https://youtu.be/2SlFFqcGjOY",
+      "tags": [
+        "UI", "Ripple", "Animation"
+      ]
+    },
+    {
+      "name": "Flutter Page Transition Animation, Application Design - Day 6",
+      "summery": "Let's see how PageTransition animation works in flutter.",
+      "repository": "https://github.com/afgprogrammer/Flutter-page-transition-animation",
+      "video": "https://youtu.be/KEUKRT9Xsls",
+      "tags": [
+        "UI", "Transition", "Animation"
+      ]
+    },
+    {
+      "name": "Flutter Button Animation, Application Design - Day 7",
+      "summery": "Let's see how Button animation works in flutter.",
+      "repository": "https://github.com/afgprogrammer/Flutter-button-animation",
+      "video": "https://youtu.be/WsbMf9IiWGo",
+      "tags": [
+        "UI", "Button", "Animation"
+      ]
+    },
+    {
+      "name": "Flutter Splash Screen design and Animation - Day 8",
+      "summery": "Let's see how we can design a Splash Screen and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Splash-Screen-Animation",
+      "video": "https://youtu.be/3O8VcpTgDMc",
+      "tags": [
+        "UI", "Splash Screen", "Animation"
+      ]
+    },
+    {
+      "type": "ad"
+    },
+    {
+      "name": "Flutter Party Event Application Ui Design - Day 9",
+      "summery": "Let's see how we can design a Party Event app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Party-Event-Application",
+      "video": "https://www.youtube.com/watch?v=pRzP34u786w",
+      "tags": [
+        "UI", "Party", "Event"
+      ]
+    },
+    {
+      "name": "Flutter GridView Example in a Shopping List Design - Day 10",
+      "summery": "Let's see how we can design a Party Event app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-GridView-Example-UI",
+      "video": "https://youtu.be/sEXekxd_IdM",
+      "tags": [
+        "UI", "GridView"
+      ]
+    },
+    {
+      "name": "Flutter Simple Travel Application Design - Day 11",
+      "summery": "Let's see how we can design a Simple Travel app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Travel-Application",
+      "video": "https://youtu.be/_yQm7FsxE98",
+      "tags": [
+        "UI", "Travel"
+      ]
+    },
+    {
+      "name": "Flutter Beautiful Login Page UI Design and Animation - Day 12",
+      "summery": "Let's see how we can design a Login page UI and add some cool animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Login-Page-UI",
+      "video": "https://youtu.be/NHAIiAmxTAU",
+      "tags": [
+        "UI", "Login", "Animation"
+      ]
+    },
+    {
+      "type": "ad"
+    },
+    {
+      "name": "Flutter Beautiful Login Page UI Design and Animation - Day 13",
+      "summery": "Let's see how we can design a Login page UI and add some cool animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Login-Page-Design",
+      "video": "https://youtu.be/FTz6TVcdh7Y",
+      "tags": [
+        "UI", "Login", "Animation"
+      ]
+    },
+    {
+      "name": "Flutter Beautiful Login Page UI Design and Animation - Day 14",
+      "summery": "Let's see how we can design a Login page UI and add some cool animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Login-Page-Design",
+      "video": "https://youtu.be/txvyAO894DY",
+      "tags": [
+        "UI", "Login", "Animation"
+      ]
+    },
+    {
+      "name": "Flutter Shoes Shop Application Design and Animation - Day 15",
+      "summery": "Let's see how we can design a Shoes Shop app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Shoes-Shop-App",
+      "video": "https://youtu.be/lrMCjIYpnjg",
+      "tags": [
+        "UI", "Shoes", "Shop"
+      ]
+    },
+    {
+      "type": "ad"
+    }
+  ]
+}

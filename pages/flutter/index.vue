@@ -12,74 +12,46 @@
       data-full-width-responsive="true"></ins>
     <div class="h-8"></div>
     <div class="py-3 text-center bg-gray-100 rounded-lg">
-      <a class="text-blue-600" href="https://github.com/afgprogrammer">Find repositories on my Github page @afgprogrammer</a>
+      <a class="text-blue-600" href="https://github.com/afgprogrammer"><span class="text-gray-900">Find repositories on my Github page</span>@afgprogrammer</a>
     </div>
     <div class="h-4"></div>
-    <div v-if="videos.length">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-6 lg:px-0">
-        <div class="rounded-t-xl overflow-hidden" v-for="(video, index) of videos" :key="index">
-          <iframe width="100%" height="350" :src="'https://www.youtube.com/embed/'+video.id.videoId" frameborder="10" allowfullscreen></iframe>
+    <div class="grid grid-cols-1">
+      <div v-for="(day, index) in days" :key="index">
+        <div v-if="day.hasOwnProperty('type')" class="ad my-10">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-2490274469917078"
+            data-ad-slot="5508803088"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        </div>
+        <div v-else class="p-3 border-b border-gray-200 mb-5">
+          <h3 class="">{{ day.name }}</h3>
+          <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>
+          <div class="mt-5 flex items-center">
+            <a :href="day.video" title="" class="text-red-700">Video Link</a>
+            <div class="w-2 h-2 mx-3 bg-gray-200 rounded-full"></div>
+            <a :href="day.repository" title="">Source Code</a>
+          </div>
         </div>
       </div>
-      <div class="h-28"></div>
-      <p class="text-center">
-        <a href="https://youtube.com/afgprogrammer" title="">Watch more</a>
-      </p>
-      <div class="h-28"></div>
-    </div>
-    <div class="loading" v-if="videos.length <= 0">
-      <p class="text-center font-bold">
-        Loading Videos ...
-      </p>
     </div>
   </section>
 </template>
 
 <script>
+import { data } from '../../lib/100days.json';
+
 export default {
   data() {
     return {
-      key: 'AIzaSyCPyfkfrlqKkP72gFU0x1FIgJzdVcB694I',
-      part: 'snippet',
-      maxResults: '20',
-      channelId: 'UCuXm84E6yWF0dIKmwvwc9sQ',
-      videos: [],
+      days: [],
     }
   },
+
 
   mounted() {
-    this.getVideos();
-  },
-
-  methods: {
-    getVideos() {
-      this.$axios.get('https://www.googleapis.com/youtube/v3/search', {
-        params: {
-          key: this.key,
-          part: this.part,
-          maxResults: this.maxResults,
-          channelId: this.channelId,
-          order: 'date'
-        }
-      }).then((response) => {
-        this.videos = response.data.items;
-      }).catch((err) => {
-        console.log(err)
-      })
-    },
-
-    breadcrumbLinks() {
-      return [
-        {
-          title: 'Home',
-          to: '/'
-        },
-        {
-          title: 'Flutter',
-          to: '/flutter'
-        }
-      ]
-    }
+    this.days = data.reverse();
   },
 
   head: {
@@ -130,5 +102,23 @@ export default {
       }
     ]
   },
+
+  methods: {
+    showAd() {
+      console.log("fuck")
+    },
+    breadcrumbLinks() {
+      return [
+        {
+          title: 'Home',
+          to: '/'
+        },
+        {
+          title: 'Flutter',
+          to: '/flutter'
+        }
+      ]
+    }
+  }
 }
 </script>
