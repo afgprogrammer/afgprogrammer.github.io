@@ -59,9 +59,9 @@ export default {
     ['@nuxtjs/google-adsense', {
       id: 'ca-pub-2490274469917078',
       onPageLoad: false,
-      pageLevelAds: false,
       analyticsDomainName: 'afgprogrammer.com',
-      overlayBottom: true
+      overlayBottom: true,
+      pageLevelAds: true
     }]
   ],
 
