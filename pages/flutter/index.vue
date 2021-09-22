@@ -11,19 +11,28 @@
       data-ad-format="auto"
       data-full-width-responsive="true"></ins>
     <div class="h-8"></div>
-    <div class="py-3 text-center bg-gray-100 rounded-lg">
-      <a class="text-blue-600" href="https://github.com/afgprogrammer"><span class="text-gray-900">Find repositories on my Github page</span>@afgprogrammer</a>
+    <div class="py-5 flex flex-col items-center">
+      <img src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full w-12">
+      <h1 class="text-xl mt-3">The Flutter Lover</h1>
+      <h2 class="text-sm text-gray-500">@theflutterlover</h2>
+      <p class="w-96 text-center mt-5">
+        Hey there! I'm Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I'm always looking for new challenges.
+        <br>
+      </p>
     </div>
     <div class="h-4"></div>
+    <p class="mt-20 mb-0 text-gray-400">
+      Here are some of my projects:
+    </p>
     <div class="grid grid-cols-1">
       <div v-for="(day, index) in days" :key="index">
-        <div v-if="day.hasOwnProperty('type')" class="ad my-10">
+        <div v-if="day.hasOwnProperty('type')" class="my-10">
           <ins class="adsbygoogle"
-            style="display:block"
+            style="display:block; text-align:center;"
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
             data-ad-client="ca-pub-2490274469917078"
-            data-ad-slot="5508803088"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
+            data-ad-slot="5536895652"></ins>
         </div>
         <div v-else class="p-3 border-b border-gray-200 mb-5">
           <h3 class="">{{ day.name }}</h3>

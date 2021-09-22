@@ -1,6 +1,9 @@
 {
   "data": [
     {
+      "type": "ad"
+    },
+    {
       "name": "Flutter Inspiration App UI Design - Day 1",
       "summery": "Let\\'s work with ListView in an example application.",
       "repository": "https://github.com/afgprogrammer/flutter-inspiration-app-ui",
@@ -146,6 +149,177 @@
     },
     {
       "type": "ad"
+    },
+    {
+      "name": "Flutter e-commerce Application design and Animation - Day 16-17",
+      "summery": "Let's see how we can design a e-commerce app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Complete-e-commerce",
+      "video": "https://youtu.be/_10i7_xsthM",
+      "tags": [
+        "UI", "E-commerce"
+      ]
+    },
+    {
+      "name": "Flutter Custom Carousel Application Design and Animation - Day 18",
+      "summery": "Let's see how we can design a Carousel app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Custom-Carousel",
+      "video": "https://youtu.be/tP7gx1NuphU",
+      "tags": [
+        "UI", "Carousel"
+      ]
+    },
+    {
+      "name": "Flutter Facebook Redesign Application Design and Animation - Day 19",
+      "summery": "Let's see how we can design a Facebook app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Facebook-Redesign",
+      "video": "https://youtu.be/VDB1OHb5SGg",
+      "tags": [
+        "UI", "Facebook"
+      ]
+    },
+    {
+      "name": "Flutter Socks Shop Application Design and Animation - Day 20",
+      "summery": "Let's see how we can design a Socks Shop app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Socks-Shop",
+      "video": "https://youtu.be/53Z-s-a_ne8",
+      "tags": [
+        "UI", "Socks", "Shop"
+      ]
+    },
+    {
+      "name": "Flutter App Intro Application Design and Animation - Day 21",
+      "summery": "Let's see how we can design a App Intro app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-App-Intro-With-Indicator",
+      "video": "https://youtu.be/d_hQoKomfdE",
+      "tags": [
+        "UI", "App", "Intro"
+      ]
+    },
+    {
+      "type": "ad"
+    },
+    {
+      "name": "Flutter Photography Application Design and Animation - Day 22",
+      "summery": "Let's see how we can design a Photography app UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Photography-Application",
+      "video": "https://youtu.be/xKDR_bp0sR0",
+      "tags": [
+        "UI", "Photography"
+      ]
+    },
+    {
+      "name": "Flutter Login and Signup Page design and Animation - Day 23",
+      "summery": "Let's see how we can design a Login and Signup page UI and add some animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-Login-Signup-page",
+      "video": "https://www.youtube.com/watch?v=Hq7Wj6DshNs",
+      "tags": [
+        "UI", "Login", "Signup"
+      ]
+    },
+    {
+      "name": "Flutter dark/light mode Login Page UI design - Day 24",
+      "summery": "Let's see how we can design a dark/light mode Login page UI.",
+      "repository": "https://github.com/afgprogrammer/Flutter-login-page",
+      "video": "https://youtu.be/bF7-67D3x3k",
+      "tags": [
+        "UI", "Login", "Dark", "Light"
+      ]
+    },
+    {
+      "name": "Flutter Widget Example - Day 25",
+      "summery": "Let's work an example with Flutter widgets",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/A3iNuRhbwNg",
+      "tags": [
+        "Widget", "Example"
+      ]
+    },
+    {
+      "type": "ad"
+    },
+    {
+      "name": "Flutter Instagram Following List Redesign - Day 26",
+      "summery": "Let's Redesign Instagram Following List with ListView widget",
+      "repository": "https://github.com/afgprogrammer/Flutter-instagram-following-list",
+      "video": "https://youtu.be/A3iNuRhbwNg",
+      "tags": [
+        "UI", "Instagram", "Following"
+      ]
+    },
+    {
+      "name": "Flutter Animation | Let's work with the AnimatedList Widget - Day 27",
+      "summery": "Let's work with the AnimatedList widget and make our list view animated.",
+      "repository": "https://github.com/afgprogrammer/Flutter-instagram-following-list",
+      "video": "https://youtu.be/6jJVGJgsyxY",
+      "tags": [
+        "Animation", "List"
+      ]
+    },
+    {
+      "name": "Flutter Searchable ListView - Day 28",
+      "summery": "Let's work with the ListView widget and make it searchable.",
+      "repository": "https://github.com/afgprogrammer/Flutter-searchable-listview",
+      "video": "https://youtu.be/9PWaRfYZ6Lg",
+      "tags": [
+        "UI", "List", "Search"
+      ]
+    },
+    {
+      "name": "Flutter Password Validation - Day 29",
+      "summery": "Let's see how simple you can validate a password in Flutter.",
+      "repository": "https://github.com/afgprogrammer/Flutter-password-validation",
+      "video": "https://youtu.be/Uahlo90ER18",
+      "tags": [
+        "UI", "Password"
+      ]
+    },
+    {
+      "name": "Flutter OTP Verification - Day 30",
+      "summery": "Let's see how simple you can verify an OTP in Flutter.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/ezomu3iMCCI",
+      "tags": [
+        "UI", "OTP"
+      ]
+    },
+    {
+      "type": "ad"
+    },
+    {
+      "name": "Flutter Job List Application UI - Day 31",
+      "summery": "Let's see how we can design a Job List app UI and add some cool animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-job-list-application",
+      "video": "https://youtu.be/KRGs9zw-8_8",
+      "tags": [
+        "UI", "Job", "List"
+      ]
+    },
+    {
+      "name": "Flutter Instagram Notification Page UI - Day 32",
+      "summery": "Let's see how we can design a Instagram Notification page UI and add some cool animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-instagram-notification-page-ui",
+      "video": "https://youtu.be/4BBhqEP2QGg",
+      "tags": [
+        "UI", "Instagram", "Notification"
+      ]
+    },
+    {
+      "name": "Flutter Portfolio App Concept - Day 33",
+      "summery": "Let's see how we can design a Portfolio app UI and add some cool animation.",
+      "repository": "https://github.com/afgprogrammer/Flutter-portfolio-app-concept",
+      "video": "https://youtu.be/agjqnbEfuAU",
+      "tags": [
+        "UI", "Portfolio"
+      ]
+    },
+    {
+      "name": "Flutter e-commerce Application Example - Day 34",
+      "summery": "Let's work an example with Flutter e-commerce app.",
+      "repository": "https://github.com/afgprogrammer/Flutter-e-commerce-app-example",
+      "video": "https://youtu.be/qhOfzEADGdA",
+      "tags": [
+        "UI", "E-commerce"
+      ]
     }
   ]
 }
