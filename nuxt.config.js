@@ -61,7 +61,7 @@ export default {
       onPageLoad: false,
       analyticsDomainName: 'afgprogrammer.com',
       overlayBottom: true,
-      pageLevelAds: true
+      pageLevelAds: false
     }]
   ],
 

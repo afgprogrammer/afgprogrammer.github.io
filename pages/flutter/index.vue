@@ -27,9 +27,9 @@
       <div v-for="(day, index) in days" :key="index">
         <div v-if="day.hasOwnProperty('type')" class="my-10">
           <adsbygoogle 
-            ad-slot="5536895652" 
+            ad-slot="5508803088" 
             ad-format="auto"
-            ad-label="flutter-ads" 
+            ad-label="flutter-ads"
           />
         </div>
         <div v-else class="p-3 border-b border-gray-200 mb-5">
