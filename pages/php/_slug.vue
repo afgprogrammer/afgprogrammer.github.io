@@ -27,12 +27,11 @@
       </div>
     </div>
     <div class="h-4"></div>
-   <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2490274469917078"
-     data-ad-slot="4018468658"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+    <adsbygoogle 
+      ad-slot="4018468658" 
+      ad-format="auto"
+      ad-label="php-ads"
+    />
     <div class="h-4"></div>
     <!-- <nuxt-content :document="article" class="py-9"/> -->
   </article>
@@ -126,7 +125,7 @@ export default {
         {
           title: this.article.title,
           to: this.article.slug
-        },
+        }
       ]
     }
   }

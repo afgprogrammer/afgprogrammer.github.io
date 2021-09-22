@@ -4,12 +4,11 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-2490274469917078"
-      data-ad-slot="5508803088"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
+    <adsbygoogle 
+      ad-slot="5508803088" 
+      ad-format="auto"
+      ad-label="flutter-ads"
+    />
     <div class="h-8"></div>
     <div class="py-5 flex flex-col items-center">
       <img src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full w-12">
@@ -27,12 +26,11 @@
     <div class="grid grid-cols-1">
       <div v-for="(day, index) in days" :key="index">
         <div v-if="day.hasOwnProperty('type')" class="my-10">
-          <ins class="adsbygoogle"
-            style="display:block; text-align:center;"
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
-            data-ad-client="ca-pub-2490274469917078"
-            data-ad-slot="5536895652"></ins>
+          <adsbygoogle 
+            ad-slot="5536895652" 
+            ad-format="auto"
+            ad-label="flutter-ads" 
+          />
         </div>
         <div v-else class="p-3 border-b border-gray-200 mb-5">
           <h3 class="">{{ day.name }}</h3>

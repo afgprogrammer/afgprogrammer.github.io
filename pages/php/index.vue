@@ -4,12 +4,11 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-2490274469917078"
-      data-ad-slot="9238225491"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
+    <adsbygoogle 
+      ad-slot="9238225491" 
+      ad-format="auto"
+      ad-label="php-ads"
+    />
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
       <div v-for="(article, index) of articles" :key="index">

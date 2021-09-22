@@ -4,12 +4,11 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-2490274469917078"
-      data-ad-slot="9238225491"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
+    <adsbygoogle 
+      ad-slot="9238225491" 
+      ad-format="auto"
+      ad-label="presentation-ads"
+    />
     <div class="h-4"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8" v-for="(presentation, index) of presentations" :key="index">
       <img :src="presentation.image" :alt="presentation.title" class="rounded-lg">

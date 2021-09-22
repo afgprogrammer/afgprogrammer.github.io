@@ -55,6 +55,13 @@ export default {
     '@nuxtjs/axios',
     ['@openafg/nuxt-fullpage', {
       showIndicators: false
+    }],
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-2490274469917078',
+      onPageLoad: false,
+      pageLevelAds: false,
+      analyticsDomainName: 'afgprogrammer.com',
+      overlayBottom: true
     }]
   ],
 
@@ -65,6 +72,13 @@ export default {
         theme: 'prism-themes/themes/prism-material-dark.css'
       }
     }
+  },
+
+  publicRuntimeConfig: {
+    'google-adsense': {
+      id: process.env.GOOGLE_ADSENSE_ID,
+      test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
