@@ -111,9 +111,6 @@ export default {
   },
 
   methods: {
-    showAd() {
-      console.log("fuck")
-    },
     breadcrumbLinks() {
       return [
         {
