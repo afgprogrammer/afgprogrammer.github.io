@@ -20,7 +20,7 @@
       </p>
     </div>
     <div class="h-4"></div>
-    <p class="mt-20 mb-0 text-gray-400">
+    <p class="mt-20 pl-3 mb-0 text-gray-400">
       Here are some of my projects:
     </p>
     <div class="grid grid-cols-1">
