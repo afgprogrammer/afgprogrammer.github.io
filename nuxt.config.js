@@ -58,6 +58,7 @@ export default {
     }],
     ['@nuxtjs/google-adsense', {
       id: 'ca-pub-2490274469917078',
+      includeQuery: true,
       onPageLoad: false,
       analyticsDomainName: 'afgprogrammer.com',
       overlayBottom: true,
