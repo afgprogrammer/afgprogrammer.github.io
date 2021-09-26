@@ -10,21 +10,17 @@
       ad-label="flutter-ads"
     />
     <div class="h-8"></div>
-    <div class="py-5 flex flex-col items-center">
-      <img src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full w-12">
-      <h1 class="text-xl mt-3">The Flutter Lover</h1>
-      <h2 class="text-sm text-gray-500">@theflutterlover</h2>
-      <p class="w-96 text-center mt-5">
-        Hey there! I'm Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I'm always looking for new challenges.
-        <br>
+    <div class="py-5 px-3 flex flex-col items-center">
+      <img src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full w-16">
+      <h1 class="text-2xl mt-4 text-gray-800">The Flutter Lover</h1>
+      <h2 class="text-md text-gray-500 mt-1">@theflutterlover</h2>
+      <p class="max-w-2xl text-center mt-10 text-xl text-gray-700 font-light">
+        Hey there! I'm Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I'm always looking for new challenges. In this page you can find my 100 days of Flutter journey.
       </p>
     </div>
     <div class="h-4"></div>
-    <p class="mt-20 pl-3 mb-0 text-gray-400">
-      Here are some of my projects:
-    </p>
-    <div class="grid grid-cols-1">
-      <div v-for="(day, index) in days" :key="index">
+    <div class="grid grid-cols-1 md:grid-cols-2 border-t pt-8">
+      <div v-for="(day, index) in days" :class="{'md:col-span-2': day.hasOwnProperty('type')}" :key="index">
         <div v-if="day.hasOwnProperty('type')" class="my-10">
           <adsbygoogle 
             ad-slot="5536895652" 
@@ -33,7 +29,8 @@
           />
         </div>
         <div v-else class="p-3 border-b border-gray-200 mb-5">
-          <h3 class="">{{ day.name }}</h3>
+          <iframe class="rounded-xl" width="100%" height="500" :src="'https://www.youtube.com/embed/' + day.video.split('/').at(-1)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3 class="mt-4">{{ day.name }}</h3>
           <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>
           <div class="mt-5 flex items-center">
             <a :href="day.video" title="" class="text-red-700">Video Link</a>
@@ -43,6 +40,7 @@
         </div>
       </div>
     </div>
+    <div class="h-40"></div>
   </section>
 </template>
 

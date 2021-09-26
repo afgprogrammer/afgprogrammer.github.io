@@ -1,9 +1,6 @@
 {
   "data": [
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Inspiration App UI Design - Day 1",
       "summery": "Let\\'s work with ListView in an example application.",
       "repository": "https://github.com/afgprogrammer/flutter-inspiration-app-ui",
@@ -11,6 +8,9 @@
       "tags": [
         "UI", "ListView"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter Trip Application Design - Day 2",
@@ -40,9 +40,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Ripple Animation in a Map Application Design - Day 5",
       "summery": "Let's try ripple animation in flutter.",
       "repository": "https://github.com/afgprogrammer/Flutter-ripple-map-application",
@@ -50,6 +47,9 @@
       "tags": [
         "UI", "Ripple", "Animation"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter Page Transition Animation, Application Design - Day 6",
@@ -79,9 +79,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Party Event Application Ui Design - Day 9",
       "summery": "Let's see how we can design a Party Event app UI and add some animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-Party-Event-Application",
@@ -89,6 +86,9 @@
       "tags": [
         "UI", "Party", "Event"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter GridView Example in a Shopping List Design - Day 10",
@@ -118,9 +118,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Beautiful Login Page UI Design and Animation - Day 13",
       "summery": "Let's see how we can design a Login page UI and add some cool animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-Login-Page-Design",
@@ -128,6 +125,9 @@
       "tags": [
         "UI", "Login", "Animation"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter Beautiful Login Page UI Design and Animation - Day 14",
@@ -148,9 +148,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter e-commerce Application design and Animation - Day 16-17",
       "summery": "Let's see how we can design a e-commerce app UI and add some animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-Complete-e-commerce",
@@ -167,6 +164,9 @@
       "tags": [
         "UI", "Carousel"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter Facebook Redesign Application Design and Animation - Day 19",
@@ -196,9 +196,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Photography Application Design and Animation - Day 22",
       "summery": "Let's see how we can design a Photography app UI and add some animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-Photography-Application",
@@ -206,6 +203,9 @@
       "tags": [
         "UI", "Photography"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter Login and Signup Page design and Animation - Day 23",
@@ -235,9 +235,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Instagram Following List Redesign - Day 26",
       "summery": "Let's Redesign Instagram Following List with ListView widget",
       "repository": "https://github.com/afgprogrammer/Flutter-instagram-following-list",
@@ -245,6 +242,9 @@
       "tags": [
         "UI", "Instagram", "Following"
       ]
+    },
+    {
+      "type": "ad"
     },
     {
       "name": "Flutter Animation | Let's work with the AnimatedList Widget - Day 27",
