@@ -19,7 +19,7 @@
       </p>
     </div>
     <div class="h-4"></div>
-    <div class="grid grid-cols-1 md:grid-cols-2 border-t pt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 border-t pt-8" v-if="days">
       <div v-for="(day, index) in days" :class="{'md:col-span-2': day.hasOwnProperty('type')}" :key="index">
         <div v-if="day.hasOwnProperty('type')" class="my-10">
           <adsbygoogle 
@@ -29,7 +29,7 @@
           />
         </div>
         <div v-else class="p-3 border-b border-gray-200 mb-5">
-          <iframe class="rounded-xl" width="100%" height="500" :src="'https://www.youtube.com/embed/' + day.video.split('/').at(-1)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="rounded-xl" width="100%" height="500" :src="day.video.replace('youtu.be', 'youtube.com/embed')" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <h3 class="mt-4">{{ day.name }}</h3>
           <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>
           <div class="mt-5 flex items-center">
@@ -45,18 +45,12 @@
 </template>
 
 <script>
-import { data } from '../../lib/100days.json';
-
 export default {
-  data() {
-    return {
-      days: [],
-    }
-  },
+  async asyncData({ $content }) {
+    let days = await $content('flutter').fetch()
+    days = days[0].data.reverse()
 
-
-  mounted() {
-    this.days = data.reverse();
+    return { days }
   },
 
   head: {
@@ -68,7 +62,7 @@ export default {
       },
       {
         name: 'description',
-        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile application development.',
+        content: 'Hey there! I\'m Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I\'m always looking for new challenges. In this page you can find my 100 days of Flutter journey.',
       },
       {
         key: 'og:title',
@@ -78,12 +72,12 @@ export default {
       {
         key: 'og:description',
         property: 'og:description',
-        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile application development.',
+        content: 'Hey there! I\'m Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I\'m always looking for new challenges. In this page you can find my 100 days of Flutter journey.',
       },
       {
         key: 'og:url',
         property: 'og:url',
-        content: 'https://afgprogrammer.com/php',
+        content: 'https://afgprogrammer.com/flutter',
       },
       {
         key: 'twitter:title',
@@ -103,7 +97,7 @@ export default {
       {
         key: 'twitter:description',
         name: 'twitter:description',
-        content: 'Creating videos for educational purposes regarding topics like Flutter, Laravel, VueJS, Invision Studio, mainly focused on mobile application development.',
+        content: 'Hey there! I\'m Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I\'m always looking for new challenges. In this page you can find my 100 days of Flutter journey.',
       }
     ]
   },
