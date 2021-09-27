@@ -20,15 +20,8 @@
     </div>
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 border-t pt-8" v-if="days">
-      <div v-for="(day, index) in days" :class="{'md:col-span-2': day.hasOwnProperty('type')}" :key="index">
-        <div v-if="day.hasOwnProperty('type')" class="my-10">
-          <adsbygoogle 
-            ad-slot="5536895652" 
-            ad-format="auto"
-            ad-label="flutter-ads"
-          />
-        </div>
-        <div v-else class="p-3 border-b border-gray-200 mb-5">
+      <div v-for="(day, index) in days" :key="index">
+        <div class="p-3 border-b border-gray-200 mb-5">
           <iframe class="rounded-xl" width="100%" height="500" :src="day.video.replace('youtu.be', 'youtube.com/embed')" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <h3 class="mt-4">{{ day.name }}</h3>
           <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>

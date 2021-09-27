@@ -10,9 +10,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Trip Application Design - Day 2",
       "summery": "Let\\'s work with PageView and add some animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-trip-app-ui",
@@ -47,9 +44,6 @@
       "tags": [
         "UI", "Ripple", "Animation"
       ]
-    },
-    {
-      "type": "ad"
     },
     {
       "name": "Flutter Page Transition Animation, Application Design - Day 6",
@@ -88,9 +82,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter GridView Example in a Shopping List Design - Day 10",
       "summery": "Let's see how we can design a Party Event app UI and add some animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-GridView-Example-UI",
@@ -125,9 +116,6 @@
       "tags": [
         "UI", "Login", "Animation"
       ]
-    },
-    {
-      "type": "ad"
     },
     {
       "name": "Flutter Beautiful Login Page UI Design and Animation - Day 14",
@@ -166,9 +154,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Facebook Redesign Application Design and Animation - Day 19",
       "summery": "Let's see how we can design a Facebook app UI and add some animation.",
       "repository": "https://github.com/afgprogrammer/Flutter-Facebook-Redesign",
@@ -203,9 +188,6 @@
       "tags": [
         "UI", "Photography"
       ]
-    },
-    {
-      "type": "ad"
     },
     {
       "name": "Flutter Login and Signup Page design and Animation - Day 23",
@@ -244,9 +226,6 @@
       ]
     },
     {
-      "type": "ad"
-    },
-    {
       "name": "Flutter Animation | Let's work with the AnimatedList Widget - Day 27",
       "summery": "Let's work with the AnimatedList widget and make our list view animated.",
       "repository": "https://github.com/afgprogrammer/Flutter-instagram-following-list",
@@ -281,9 +260,6 @@
       "tags": [
         "UI", "OTP"
       ]
-    },
-    {
-      "type": "ad"
     },
     {
       "name": "Flutter Job List Application UI - Day 31",
