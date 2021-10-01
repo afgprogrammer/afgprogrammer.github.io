@@ -298,10 +298,19 @@
       ]
     },
     {
-      "name": "Flutter Home Service Application Example - Day 35",
+      "name": "Flutter Home Service Application Example (part 1) - Day 35",
       "summery": "Let’s make a home service application.",
       "repository": "https://github.com/afgprogrammer/Flutter-home-service-app",
       "video": "https://youtu.be/2iU5Oy028WQ",
+      "tags": [
+        "UI", "Service"
+      ]
+    },
+    {
+      "name": "Flutter Home Service Application Example (part 2) - Day 35",
+      "summery": "Let’s make a home service application.",
+      "repository": "https://github.com/afgprogrammer/Flutter-home-service-app",
+      "video": "https://youtu.be/v4oopXDIMCc",
       "tags": [
         "UI", "Service"
       ]

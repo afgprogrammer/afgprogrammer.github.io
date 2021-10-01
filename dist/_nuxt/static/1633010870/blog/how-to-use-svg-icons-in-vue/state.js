@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1633010870",layout:"default",error:a,serverRendered:true,routePath:"\u002Fblog\u002Fhow-to-use-svg-icons-in-vue",config:{"google-adsense":{id:void 0,test:false},_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"7d2194f4"}}}}(null));
