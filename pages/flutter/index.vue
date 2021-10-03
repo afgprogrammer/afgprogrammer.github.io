@@ -13,15 +13,19 @@
     <div class="py-5 px-3 flex flex-col items-center">
       <img src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full w-16">
       <h1 class="text-2xl mt-4 text-gray-800">The Flutter Lover</h1>
-      <h2 class="text-md text-gray-500 mt-1">@theflutterlover</h2>
-      <p class="max-w-2xl text-center mt-10 text-xl text-gray-700 font-light">
-        Hey there! I'm Mohammad Rahmani, a Flutter developer based in Kabul. I love Flutter, and I'm always looking for new challenges. In this page you can find my 100 days of Flutter journey.
+      <a href="https://instagram.com/theflutterlover" class="text-md text-blue-500 mt-1">@theflutterlover</a>
+      <p class="max-w-2xl px-5 md:px-0 text-center mt-10 text-xl text-gray-700 font-light">
+        Hey there 👋🏼
+        I'm Mohammad Rahmani, a Software Engineer based in Kabul, Afghanistan. I love Flutter, and Web Development. I'm currently working on Flutter 100 Days Challenge 👨🏽‍💻. 
+        <br>
+        <br>
+        👇🏼👇🏼👇🏼👇🏼
       </p>
     </div>
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 border-t pt-8" v-if="days">
       <div v-for="(day, index) in days" :key="index">
-        <div class="p-3 border-b border-gray-200 mb-5">
+        <div class="p-5 md:p-3 border-b border-gray-200 mb-5">
           <iframe class="rounded-xl" width="100%" height="500" :src="day.video.replace('youtu.be', 'youtube.com/embed')" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <h3 class="mt-4">{{ day.name }}</h3>
           <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>
