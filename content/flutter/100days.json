@@ -341,6 +341,15 @@
       "tags": [
         "UI", "Service"
       ]
+    },
+    {
+      "name": "Flutter Staggered Grid View with Auto-Scroll - Day 36",
+      "summery": "Let’s make a staggered grid view with auto-scroll.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/1HYKM0R8aGM",
+      "tags": [
+        "UI", "Service"
+      ]
     }
   ]
 }
