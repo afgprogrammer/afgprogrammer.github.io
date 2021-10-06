@@ -350,6 +350,15 @@
       "tags": [
         "UI", "Service"
       ]
+    },
+    {
+      "name": "Flutter Light Switch Example - Day 37",
+      "summery": "Let’s make a light switch.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/hNAsqJ9XzRI",
+      "tags": [
+        "UI", "Service"
+      ]
     }
   ]
 }
