@@ -359,6 +359,15 @@
       "tags": [
         "UI", "Service"
       ]
+    },
+    {
+      "name": "Flutter Login Page with Animated illustrations - Day 38",
+      "summery": "Let’s make a login page with animated illustrations.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/HL3VQvQZeL4",
+      "tags": [
+        "UI", "Login", "illustration"
+      ]
     }
   ]
 }

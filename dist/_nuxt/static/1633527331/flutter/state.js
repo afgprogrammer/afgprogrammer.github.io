@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1633527331",layout:"default",error:a,serverRendered:true,routePath:"\u002Fflutter",config:{"google-adsense":{id:void 0,test:false},_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"63c42a66"}}}}(null));
