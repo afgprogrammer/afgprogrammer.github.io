@@ -368,6 +368,15 @@
       "tags": [
         "UI", "Login", "illustration"
       ]
+    },
+    {
+      "name": "Flutter no-connection Page Example - Day 39",
+      "summery": "Let’s make a login page with animated illustrations.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/aMNT_KKUHFM",
+      "tags": [
+        "UI", "no connection"
+      ]
     }
   ]
 }
