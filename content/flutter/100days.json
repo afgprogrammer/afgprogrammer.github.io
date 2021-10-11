@@ -395,6 +395,15 @@
       "tags": [
         "UI", "Wallet"
       ]
+    },
+    {
+      "name": "Flutter Wallet Application Example (part 3) - Day 40",
+      "summery": "Let’s make a Wallet application.",
+      "repository": "https://github.com/afgprogrammer/Flutter-wallet-app",
+      "video": "https://youtu.be/XaUe_xEYkGc",
+      "tags": [
+        "UI", "Wallet"
+      ]
     }
   ]
 }
