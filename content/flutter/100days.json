@@ -413,6 +413,15 @@
       "tags": [
         "UI", "Wallet"
       ]
+    },
+    {
+      "name": "Flutter Google Map Example - Day 41",
+      "summery": "Let’s make a Google Map application.",
+      "repository": "https://github.com/afgprogrammer/Flutter-google-map-example",
+      "video": "https://youtu.be/ur5XMGM7Lwc",
+      "tags": [
+        "UI", "Google Map"
+      ]
     }
   ]
 }
