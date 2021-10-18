@@ -452,11 +452,20 @@
     },
     {
       "name": "Flutter | Github API Example with Dio Package - Day 42",
-      "summery": "Let’s make a Google Map application.",
+      "summery": "Let’s make a Github API application.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/MgmHUfrW9hI",
       "tags": [
         "UI", "Github", "API"
+      ]
+    },
+    {
+      "name": "Flutter Concentric Transition Package Example - Day 43",
+      "summery": "Let’s make a Google Map application.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/dbhTOLpyFsQ",
+      "tags": [
+        "UI", "Page Transition"
       ]
     }
   ]
