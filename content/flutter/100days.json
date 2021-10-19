@@ -467,6 +467,15 @@
       "tags": [
         "UI", "Page Transition"
       ]
+    },
+    {
+      "name": "Flutter UI | Toast Package Example",
+      "summery": "Let’s make a Toast package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/3UJY4l2t3pQ",
+      "tags": [
+        "UI", "Page Transition"
+      ]
     }
   ]
 }
