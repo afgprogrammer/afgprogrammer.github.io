@@ -461,7 +461,7 @@
     },
     {
       "name": "Flutter Concentric Transition Package Example - Day 43",
-      "summery": "Let’s make a Google Map application.",
+      "summery": "Let’s work with concentric_transition package.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/dbhTOLpyFsQ",
       "tags": [
@@ -470,11 +470,11 @@
     },
     {
       "name": "Flutter UI | Toast Package Example",
-      "summery": "Let’s make a Toast package.",
+      "summery": "Let’s work with Fluttertoast package.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/3UJY4l2t3pQ",
       "tags": [
-        "UI", "Page Transition"
+        "UI", "Toast"
       ]
     }
   ]
