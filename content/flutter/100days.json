@@ -371,7 +371,7 @@
     },
     {
       "name": "Flutter no-connection Page Example - Day 39",
-      "summery": "Let’s make a login page with animated illustrations.",
+      "summery": "Let’s make a no-connection page.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/aMNT_KKUHFM",
       "tags": [
@@ -475,6 +475,15 @@
       "video": "https://youtu.be/3UJY4l2t3pQ",
       "tags": [
         "UI", "Toast"
+      ]
+    },
+    {
+      "name": "Flutter UI | Elastic Drawer Package Example",
+      "summery": "Let’s work with ElasticDrawer package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/WRU5_v-niyk",
+      "tags": [
+        "UI", "Elastic Drawer"
       ]
     }
   ]
