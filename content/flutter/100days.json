@@ -485,6 +485,15 @@
       "tags": [
         "UI", "Elastic Drawer"
       ]
+    },
+    {
+      "name": "Flutter Odometer Package Example #oneminute",
+      "summery": "Let’s work with Odometer package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/obs9Pewx65M",
+      "tags": [
+        "UI", "Odometer"
+      ]
     }
   ]
 }
