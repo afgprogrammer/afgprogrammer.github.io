@@ -496,9 +496,9 @@
       ]
     },
     {
-      "name": "Flutter UI | Select File with file_picker Package",
+      "name": "Flutter UI | Select File with file_picker Package - Day 44",
       "summery": "Let’s work with file_picker package.",
-      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "repository": "https://github.com/afgprogrammer/Flutter-file-select-upload",
       "video": "https://youtu.be/dhKRflZUicU",
       "tags": [
         "UI", "File Picker"
