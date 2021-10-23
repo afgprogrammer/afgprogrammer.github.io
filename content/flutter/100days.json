@@ -494,6 +494,15 @@
       "tags": [
         "UI", "Odometer"
       ]
+    },
+    {
+      "name": "Flutter UI | Select File with file_picker Package",
+      "summery": "Let’s work with file_picker package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/dhKRflZUicU",
+      "tags": [
+        "UI", "File Picker"
+      ]
     }
   ]
 }
