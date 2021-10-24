@@ -503,6 +503,15 @@
       "tags": [
         "UI", "File Picker"
       ]
+    },
+    {
+      "name": "Flutter UI | Curved Navigation Bar Package Example",
+      "summery": "Let's work with curved_navigation_bar Package",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/xDS1Omh0wqQ",
+      "tags": [
+        "UI", "Navigation"
+      ]
     }
   ]
 }
