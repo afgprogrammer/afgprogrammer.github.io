@@ -521,6 +521,15 @@
       "tags": [
         "UI", "Animation"
       ]
+    },
+    {
+      "name": "Flutter UI | Custom Navigation Bar Example",
+      "summery": "Let's make a custom navigation bar.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/0OKNXNCkTHc",
+      "tags": [
+        "UI", "Navigation Bar"
+      ]
     }
   ]
 }
