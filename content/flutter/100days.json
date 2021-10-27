@@ -533,11 +533,20 @@
     },
     {
       "name": "Flutter UI | Staggered GridView Package Example",
-      "summery": "Let's work an example with staggered grid view package..",
+      "summery": "Let's work an example with staggered grid view package.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/y-j70n0K6Us",
       "tags": [
         "UI", "GridView"
+      ]
+    },
+    {
+      "name": "Let’s work with PageView and ScaleTransition - Day 46",
+      "summery": "Let’s work with PageView and ScaleTransition - Day 46",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/jXZ9OgaF_Aw",
+      "tags": [
+        "UI", "PageView"
       ]
     }
   ]
