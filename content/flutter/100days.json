@@ -548,6 +548,15 @@
       "tags": [
         "UI", "PageView"
       ]
+    },
+    {
+      "name": "Flutter UI | Verification Code Package Example",
+      "summery": "Let's work an example with flutter_verification_code Package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/Pv4Eo4AbPXM",
+      "tags": [
+        "UI", "OTP Verification"
+      ]
     }
   ]
 }
