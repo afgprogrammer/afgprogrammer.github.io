@@ -557,6 +557,15 @@
       "tags": [
         "UI", "OTP Verification"
       ]
+    },
+    {
+      "name": "Flutter UI | Liquid Swipe Package Example",
+      "summery": "Let's work an example with Liquid Swipe Package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/mre3W5pf_UI",
+      "tags": [
+        "UI", "Liquid Swipe"
+      ]
     }
   ]
 }
