@@ -566,6 +566,15 @@
       "tags": [
         "UI", "Liquid Swipe"
       ]
+    },
+    {
+      "name": "Flutter UI | Register with Phone Number - Day 47",
+      "summery": "Let's make a register with phone number page.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/86pTXKMt4jA",
+      "tags": [
+        "UI", "Register"
+      ]
     }
   ]
 }
