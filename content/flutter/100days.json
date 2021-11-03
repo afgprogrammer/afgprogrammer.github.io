@@ -575,6 +575,15 @@
       "tags": [
         "UI", "Register"
       ]
+    },
+    {
+      "name": "Flutter UI | Elastic Drawer Package Example #shorts",
+      "summery": "Let’s work with ElasticDrawer package.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/TZ-mS5hivPE",
+      "tags": [
+        "UI", "Elastic Drawer"
+      ]
     }
   ]
 }
