@@ -584,6 +584,15 @@
       "tags": [
         "UI", "Elastic Drawer"
       ]
+    },
+    {
+      "name": "Flutter UI | Let's Make a Follow Button with AnimatedContainer",
+      "summery": "Let’s work with AnimatedContainer widget.",
+      "repository": "https://github.com/afgprogrammer/Flutter-searchable-listview",
+      "video": "https://youtu.be/fuJwCuRHOSg",
+      "tags": [
+        "UI", "Animation"
+      ]
     }
   ]
 }
