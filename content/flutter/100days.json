@@ -593,6 +593,15 @@
       "tags": [
         "UI", "Animation"
       ]
+    },
+    {
+      "name": "Flutter UI | Bouncing Widget Package Example",
+      "summery": "A widget that enables you to add a bouncing animation on a widget.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/yRHxfwZ6Y_w",
+      "tags": [
+        "UI", "Animation"
+      ]
     }
   ]
 }
