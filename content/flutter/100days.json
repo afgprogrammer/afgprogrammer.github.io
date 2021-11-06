@@ -602,6 +602,15 @@
       "tags": [
         "UI", "Animation"
       ]
+    },
+    {
+      "name": "Flutter UI | Google Map Package Example",
+      "summery": "Let’s make a Google Map application.",
+      "repository": "https://github.com/afgprogrammer/Flutter-google-map-example",
+      "video": "https://youtu.be/VIwZeVtN6Dk",
+      "tags": [
+        "UI", "Google Map"
+      ]
     }
   ]
 }
