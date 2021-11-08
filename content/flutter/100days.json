@@ -611,6 +611,15 @@
       "tags": [
         "UI", "Google Map"
       ]
+    },
+    {
+      "name": "Flutter UI | Searchable ListView Example",
+      "summery": "Let’s make a searchable ListView.",
+      "repository": "https://github.com/afgprogrammer/Flutter-searchable-listview",
+      "video": "https://youtu.be/8NNcJhBA7sQ",
+      "tags": [
+        "UI", "Searchable", "ListView"
+      ]
     }
   ]
 }
