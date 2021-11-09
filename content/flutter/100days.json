@@ -620,6 +620,15 @@
       "tags": [
         "UI", "Searchable", "ListView"
       ]
+    },
+    {
+      "name": "Flutter UI | How to Read Local JSON File in Flutter",
+      "summery": "Let’s make a Job List App UI with Flutter.",
+      "repository": "https://github.com/afgprogrammer/Flutter-job-list-application",
+      "video": "https://youtu.be/wURKsWxG7yE",
+      "tags": [
+        "UI", "Job List", "ListView"
+      ]
     }
   ]
 }
