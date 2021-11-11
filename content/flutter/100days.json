@@ -647,6 +647,15 @@
       "tags": [
         "UI", "Vertical Card"
       ]
+    },
+    {
+      "name": "Flutter UI | Discover Page UI Design #shorts",
+      "summery": "A Flutter staggered grid view (masonry tiles) which supports multiple columns with rows of varying sizes.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/PeySP7VbYOY",
+      "tags": [
+        "UI", "Design"
+      ]
     }
   ]
 }
