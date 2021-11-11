@@ -632,11 +632,20 @@
     },
     {
       "name": "Flutter UI | Salomon Bottom Bar Package Example",
-      "summery": "Yet another bottom navigation bar, but with a few key promises..",
+      "summery": "Yet another bottom navigation bar, but with a few key promises.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/O0xyoZZRdKs",
       "tags": [
         "UI", "Bottom Navigation Bar"
+      ]
+    },
+    {
+      "name": "Flutter UI | Vertical Card Pager Package Example",
+      "summery": "Use dynamic and beautiful card view pagers to help you create great apps.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/PALDDNSTp9s",
+      "tags": [
+        "UI", "Vertical Card"
       ]
     }
   ]
