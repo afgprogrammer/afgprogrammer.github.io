@@ -649,10 +649,19 @@
       ]
     },
     {
-      "name": "Flutter UI | Discover Page UI Design - Day 48 #shorts",
+      "name": "Flutter UI | Discover Page UI Design - Day 48",
       "summery": "A Flutter staggered grid view (masonry tiles) which supports multiple columns with rows of varying sizes.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/3leMoja212I",
+      "tags": [
+        "UI", "Design"
+      ]
+    },
+    {
+      "name": "Flutter UI | Selectable ListView Example - Day 49",
+      "summery": "Day 49 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/BZc5l1jQG2U",
       "tags": [
         "UI", "Design"
       ]
