@@ -683,6 +683,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Flutter UI | Movies List #shorts",
+      "summery": "Carousel Slider - UI Example",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/qbbpbGDjtp4",
+      "tags": [
+        "UI", "Carousel Slider"
+      ]
     }
   ]
 }
