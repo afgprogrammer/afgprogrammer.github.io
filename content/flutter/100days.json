@@ -719,6 +719,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Flutter UI | Carousel Card Movies List - Day 52",
+      "summery": "Day 52 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/bKByaGFcxnE",
+      "tags": [
+        "UI", "Design"
+      ]
     }
   ]
 }
