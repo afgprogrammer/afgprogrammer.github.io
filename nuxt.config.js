@@ -3,7 +3,7 @@ export default {
   // ssr: false,
 
   server: {
-    host: '172.30.11.64'
+    host: '172.30.11.203'
   },
 
   // Target: https://go.nuxtjs.dev/config-target
