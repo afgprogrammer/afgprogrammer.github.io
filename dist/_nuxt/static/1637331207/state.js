@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1637331207",layout:"default",error:a,serverRendered:true,routePath:b,config:{"google-adsense":{id:void 0,test:false},_app:{basePath:b,assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"52e1ca52"}}}}(null,"\u002F"));
