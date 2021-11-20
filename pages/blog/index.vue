@@ -11,12 +11,15 @@
     />
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
-      <div v-for="(post, index) of posts" :key="index">
+      <div v-for="(post, index) of posts" :key="index" class="border rounded-xl">
         <router-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
-          <img :data-src="post.image" :alt="post.title" class="rounded-t-lg" v-lazy-load/>
-          <div class="mt-5">
-            <h2 class="text-xl font-medium text-gray-800">{{ post.title }}</h2>
-            <p class="mt-3 text-gray-600 text-sm">{{ post.summery.substring(0, 150) }} ...</p>
+          <img :data-src="post.image" :alt="post.title" class="rounded-t-xl" v-lazy-load/>
+          <div class="mt-5 px-3">
+            <small class="text-gray-400">{{ formatDate(post.date) }}</small>
+            <h2 class="text-xl text-gray-800 mt-3">{{ post.title }}</h2>
+            <div class="text-right my-5">
+              <span class="text-blue-500 text-sm">Read Article</span>
+            </div>
           </div>
         </router-link>
       </div>
@@ -87,6 +90,11 @@ export default {
   },
   
   methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
+
     breadcrumbLinks() {
       return [
         {
