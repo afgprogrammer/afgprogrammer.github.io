@@ -766,10 +766,19 @@
       ]
     },
     {
-      "name": "Flutter UI |Bottom Navy Bar Package Example",
+      "name": "Flutter UI | Bottom Navy Bar Package Example",
       "summery": "Flutter package example.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/0EBmAq5ZPP8",
+      "tags": [
+        "UI", "Design"
+      ]
+    },
+    {
+      "name": "Flutter UI | Winter Collection List UI Design - Day 45",
+      "summery": "Day 45 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/6O-zkB7Xeag",
       "tags": [
         "UI", "Design"
       ]
