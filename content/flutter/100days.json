@@ -800,6 +800,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Flutter UI | Searchable Dropdown Package Example #shorts",
+      "summery": "Flutter package example.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/CwTEdazQUlg",
+      "tags": [
+        "UI", "Package"
+      ]
     }
   ]
 }
