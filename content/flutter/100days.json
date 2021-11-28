@@ -818,6 +818,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Flutter UI | Carousel Slider Package Example",
+      "summery": "Flutter package example.",
+      "repository": "https://github.com/afgprogrammer/Flutter-home-service-app",
+      "video": "https://youtu.be/2xwiY4GcWEI",
+      "tags": [
+        "UI", "Package"
+      ]
     }
   ]
 }
