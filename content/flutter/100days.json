@@ -822,8 +822,17 @@
     {
       "name": "Flutter UI | Carousel Slider Package Example",
       "summery": "Flutter package example.",
-      "repository": "https://github.com/afgprogrammer/Flutter-home-service-app",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/2xwiY4GcWEI",
+      "tags": [
+        "UI", "Package"
+      ]
+    },
+    {
+      "name": "Flutter UI | Insta Like Button Package Example",
+      "summery": "Flutter package example.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/Y5osMTDW0D0",
       "tags": [
         "UI", "Package"
       ]
