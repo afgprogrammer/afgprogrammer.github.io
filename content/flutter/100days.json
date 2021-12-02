@@ -845,6 +845,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Flutter UI | Gradient Widget Package Example",
+      "summery": "Flutter package example.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/ZnFyRcgAC0Y",
+      "tags": [
+        "UI", "Package"
+      ]
     }
   ]
 }
