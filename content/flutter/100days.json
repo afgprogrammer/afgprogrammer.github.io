@@ -863,6 +863,15 @@
       "tags": [
         "UI", "Package"
       ]
+    },
+    {
+      "name": "Flutter UI | Home Service App (part 3) - Day 35",
+      "summery": "Day 35 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-home-service-app",
+      "video": "https://youtu.be/z5_zkIfENGM",
+      "tags": [
+        "UI", "Design"
+      ]
     }
   ]
 }
