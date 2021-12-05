@@ -51,7 +51,7 @@ export default {
   },
 
   head: {
-    title: 'Everyday Flutter UI Design Example - afgprogrammer',
+    title: 'Flutter 100 Days of Code UI Design Example - afgprogrammer',
     meta: [
       { 
         name: 'author', 
