@@ -899,6 +899,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Modal Bottom Sheet Example in Flutter",
+      "summery": "Flutter Example",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/GnyTLk-xwk8",
+      "tags": [
+        "UI", "Example"
+      ]
     }
   ]
 }
