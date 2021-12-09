@@ -908,6 +908,15 @@
       "tags": [
         "UI", "Example"
       ]
+    },
+    {
+      "name": "Flutter Day 57 / 100 Days of Code #shorts",
+      "summery": "Day 57 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/_Abu0rjOtGs",
+      "tags": [
+        "UI", "Design"
+      ]
     }
   ]
 }
