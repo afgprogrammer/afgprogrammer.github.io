@@ -926,6 +926,15 @@
       "tags": [
         "UI", "Example"
       ]
+    },
+    {
+      "name": "Flutter UI | OnBoarding Page Design - Day 29",
+      "summery": "Flutter Example.",
+      "repository": "https://github.com/afgprogrammer/Flutter-password-validation",
+      "video": "https://youtu.be/mH1bF4qIofw",
+      "tags": [
+        "UI", "Design"
+      ]
     }
   ]
 }
