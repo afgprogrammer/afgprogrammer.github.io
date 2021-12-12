@@ -935,6 +935,15 @@
       "tags": [
         "UI", "Design"
       ]
+    },
+    {
+      "name": "Flutter 100 Days of Code Challenge #shorts",
+      "summery": "Flutter Example.",
+      "repository": "https://github.com/afgprogrammer/Flutter-examples",
+      "video": "https://youtu.be/AIEfZqHh6DI",
+      "tags": [
+        "UI", "Example"
+      ]
     }
   ]
 }
