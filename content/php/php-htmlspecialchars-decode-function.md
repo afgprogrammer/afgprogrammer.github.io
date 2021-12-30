@@ -1,7 +1,7 @@
 ---
 title: PHP htmlspecialchars_decode() Function
 date: 2021-07-09 13:30:00
-slug: php-htmlspecialchars_decode-function
+slug: php-htmlspecialchars-decode-function
 image: '/images/php/php-htmlspecialchars_decode-function.png'
 tags: ['php', 'htmlspecialchars_decode']
 instagram: "https://www.instagram.com/p/CRGcPsujIoz/?utm_source=ig_web_copy_link"
