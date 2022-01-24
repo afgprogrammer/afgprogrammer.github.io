@@ -6,7 +6,7 @@
     google_ad_client: "ca-pub-2490274469917078",
     enable_page_level_ads: false,
     overlays: {bottom: true}
-  }); window.__abg_called = true;}</script><link rel="preload" href="/_nuxt/d4fcf17.js" as="script"><link rel="preload" href="/_nuxt/3fd28fd.js" as="script"><link rel="preload" href="/_nuxt/2a1f72d.js" as="script"><link rel="preload" href="/_nuxt/6a84851.js" as="script"><link rel="preload" href="/_nuxt/d65f352.js" as="script"><style data-vue-ssr-id="d706d280:0 66882d73:0 b682ae5a:0">/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*/
+  }); window.__abg_called = true;}</script><link rel="preload" href="/_nuxt/9280d21.js" as="script"><link rel="preload" href="/_nuxt/9a73f7e.js" as="script"><link rel="preload" href="/_nuxt/dc68b12.js" as="script"><link rel="preload" href="/_nuxt/1915c11.js" as="script"><link rel="preload" href="/_nuxt/8640c29.js" as="script"><style data-vue-ssr-id="d706d280:0 66882d73:0 b682ae5a:0">/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*/
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -540,6 +540,10 @@ video {
  * Ensure the default browser behavior of the `hidden` attribute.
  */
 
+[hidden] {
+  display: none;
+}
+
 *, ::before, ::after{
   --tw-border-opacity:1;
   border-color:rgba(229, 231, 235, var(--tw-border-opacity));
@@ -553,36 +557,12 @@ video {
   position:fixed;
 }
 
-.absolute{
-  position:absolute;
-}
-
 .relative{
   position:relative;
 }
 
 .top-4{
   top:1rem;
-}
-
-.top-60{
-  top:15rem;
-}
-
-.top-64{
-  top:16rem;
-}
-
-.right-20{
-  right:5rem;
-}
-
-.right-72{
-  right:18rem;
-}
-
-.bottom-0{
-  bottom:0px;
 }
 
 .left-4{
@@ -605,16 +585,6 @@ video {
   margin:auto;
 }
 
-.mx-3{
-  margin-left:0.75rem;
-  margin-right:0.75rem;
-}
-
-.mx-4{
-  margin-left:1rem;
-  margin-right:1rem;
-}
-
 .mx-auto{
   margin-left:auto;
   margin-right:auto;
@@ -628,10 +598,6 @@ video {
 .my-8{
   margin-top:2rem;
   margin-bottom:2rem;
-}
-
-.mt-1{
-  margin-top:0.25rem;
 }
 
 .mt-2{
@@ -648,6 +614,10 @@ video {
 
 .mt-5{
   margin-top:1.25rem;
+}
+
+.mt-6{
+  margin-top:1.5rem;
 }
 
 .mt-8{
@@ -686,12 +656,12 @@ video {
   margin-bottom:0.75rem;
 }
 
-.mb-5{
-  margin-bottom:1.25rem;
-}
-
 .ml-2{
   margin-left:0.5rem;
+}
+
+.ml-5{
+  margin-left:1.25rem;
 }
 
 .block{
@@ -708,6 +678,10 @@ video {
 
 .grid{
   display:grid;
+}
+
+.hidden{
+  display:none;
 }
 
 .h-2{
@@ -750,36 +724,20 @@ video {
   height:10rem;
 }
 
-.h-44{
-  height:11rem;
-}
-
-.h-full{
-  height:100%;
-}
-
 .min-h-screen{
   min-height:100vh;
-}
-
-.w-2{
-  width:0.5rem;
 }
 
 .w-8{
   width:2rem;
 }
 
-.w-16{
-  width:4rem;
-}
-
 .w-20{
   width:5rem;
 }
 
-.w-44{
-  width:11rem;
+.w-52{
+  width:13rem;
 }
 
 .w-3\/4{
@@ -790,16 +748,12 @@ video {
   width:50%;
 }
 
-.w-full{
-  width:100%;
-}
-
-.max-w-2xl{
-  max-width:42rem;
-}
-
 .max-w-4xl{
   max-width:56rem;
+}
+
+.max-w-5xl{
+  max-width:64rem;
 }
 
 .max-w-6xl{
@@ -808,6 +762,10 @@ video {
 
 .max-w-7xl{
   max-width:80rem;
+}
+
+.flex-1{
+  flex:1 1 0%;
 }
 
 .transform{
@@ -911,6 +869,10 @@ video {
   flex-wrap:wrap;
 }
 
+.items-end{
+  align-items:flex-end;
+}
+
 .items-center{
   align-items:center;
 }
@@ -931,12 +893,26 @@ video {
   gap:2rem;
 }
 
+.gap-10{
+  gap:2.5rem;
+}
+
 .self-end{
   align-self:flex-end;
 }
 
 .justify-self-end{
   justify-self:end;
+}
+
+.overflow-hidden{
+  overflow:hidden;
+}
+
+.truncate{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
 }
 
 .rounded-lg{
@@ -961,6 +937,10 @@ video {
   border-top-right-radius:0.75rem;
 }
 
+.border-2{
+  border-width:2px;
+}
+
 .border{
   border-width:1px;
 }
@@ -978,19 +958,19 @@ video {
   border-color:rgba(255, 255, 255, var(--tw-border-opacity));
 }
 
-.border-gray-200{
+.border-gray-100{
   --tw-border-opacity:1;
-  border-color:rgba(229, 231, 235, var(--tw-border-opacity));
+  border-color:rgba(243, 244, 246, var(--tw-border-opacity));
 }
 
-.bg-gray-200{
+.bg-white{
   --tw-bg-opacity:1;
-  background-color:rgba(229, 231, 235, var(--tw-bg-opacity));
+  background-color:rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.bg-red-600{
+.bg-gray-100{
   --tw-bg-opacity:1;
-  background-color:rgba(220, 38, 38, var(--tw-bg-opacity));
+  background-color:rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
 .bg-yellow-300{
@@ -998,9 +978,19 @@ video {
   background-color:rgba(252, 211, 77, var(--tw-bg-opacity));
 }
 
-.bg-blue-600{
+.bg-green-50{
   --tw-bg-opacity:1;
-  background-color:rgba(37, 99, 235, var(--tw-bg-opacity));
+  background-color:rgba(236, 253, 245, var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-100:hover{
+  --tw-bg-opacity:1;
+  background-color:rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.hover\:bg-yellow-400:hover{
+  --tw-bg-opacity:1;
+  background-color:rgba(251, 191, 36, var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-br{
@@ -1047,13 +1037,22 @@ video {
   --tw-gradient-to:#065f46;
 }
 
-.p-5{
-  padding:1.25rem;
+.p-3{
+  padding:0.75rem;
+}
+
+.p-4{
+  padding:1rem;
 }
 
 .px-3{
   padding-left:0.75rem;
   padding-right:0.75rem;
+}
+
+.px-4{
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 .px-5{
@@ -1069,6 +1068,11 @@ video {
 .px-10{
   padding-left:2.5rem;
   padding-right:2.5rem;
+}
+
+.py-2{
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
 }
 
 .py-3{
@@ -1096,12 +1100,21 @@ video {
   padding-bottom:2.5rem;
 }
 
+.py-14{
+  padding-top:3.5rem;
+  padding-bottom:3.5rem;
+}
+
 .pt-6{
   padding-top:1.5rem;
 }
 
 .pt-8{
   padding-top:2rem;
+}
+
+.pr-2{
+  padding-right:0.5rem;
 }
 
 .pb-3{
@@ -1156,11 +1169,6 @@ video {
   line-height:2.5rem;
 }
 
-.text-5xl{
-  font-size:3rem;
-  line-height:1;
-}
-
 .font-light{
   font-weight:300;
 }
@@ -1193,8 +1201,8 @@ video {
   text-transform:lowercase;
 }
 
-.leading-10{
-  line-height:2.5rem;
+.leading-5{
+  line-height:1.25rem;
 }
 
 .leading-normal{
@@ -1244,14 +1252,14 @@ video {
   color:rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
-.text-red-700{
-  --tw-text-opacity:1;
-  color:rgba(185, 28, 28, var(--tw-text-opacity));
-}
-
 .text-yellow-500{
   --tw-text-opacity:1;
   color:rgba(245, 158, 11, var(--tw-text-opacity));
+}
+
+.text-green-600{
+  --tw-text-opacity:1;
+  color:rgba(5, 150, 105, var(--tw-text-opacity));
 }
 
 .text-blue-500{
@@ -1278,10 +1286,6 @@ video {
   text-decoration:underline;
 }
 
-.opacity-50{
-  opacity:0.5;
-}
-
 *, ::before, ::after{
   --tw-shadow:0 0 #0000;
 }
@@ -1295,25 +1299,8 @@ video {
   --tw-ring-shadow:0 0 #0000;
 }
 
-.filter{
-  --tw-blur:var(--tw-empty,/*!*/ /*!*/);
-  --tw-brightness:var(--tw-empty,/*!*/ /*!*/);
-  --tw-contrast:var(--tw-empty,/*!*/ /*!*/);
-  --tw-grayscale:var(--tw-empty,/*!*/ /*!*/);
-  --tw-hue-rotate:var(--tw-empty,/*!*/ /*!*/);
-  --tw-invert:var(--tw-empty,/*!*/ /*!*/);
-  --tw-saturate:var(--tw-empty,/*!*/ /*!*/);
-  --tw-sepia:var(--tw-empty,/*!*/ /*!*/);
-  --tw-drop-shadow:var(--tw-empty,/*!*/ /*!*/);
-  filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .blur{
   --tw-blur:blur(8px);
-}
-
-.blur-2xl{
-  --tw-blur:blur(40px);
 }
 
 .backdrop-filter{
@@ -1336,6 +1323,14 @@ body{
   font-size:16px
 }
 
+.header-shadow{
+  box-shadow:0 2.65546px 95px rgba(0,0,0,.1)
+}
+
+.leading-normal{
+  line-height:1.1!important
+}
+
 @media (min-width: 640px){
 }
 
@@ -1346,15 +1341,6 @@ body{
 
   .md\:grid-cols-2{
     grid-template-columns:repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:p-3{
-    padding:0.75rem;
-  }
-
-  .md\:px-0{
-    padding-left:0px;
-    padding-right:0px;
   }
 
   .md\:text-lg{
@@ -1381,24 +1367,8 @@ body{
     margin-top:0px;
   }
 
-  .lg\:h-52{
-    height:13rem;
-  }
-
-  .lg\:h-80{
-    height:20rem;
-  }
-
   .lg\:w-32{
     width:8rem;
-  }
-
-  .lg\:w-52{
-    width:13rem;
-  }
-
-  .lg\:w-80{
-    width:20rem;
   }
 
   .lg\:w-full{
@@ -1466,18 +1436,6 @@ body{
 }
 
 @media (min-width: 1280px){
-  .xl\:right-1\/3{
-    right:33.333333%;
-  }
-
-  .xl\:right-1\/4{
-    right:25%;
-  }
-
-  .xl\:h-60{
-    height:15rem;
-  }
-
   .xl\:w-48{
     width:12rem;
   }
@@ -1741,10 +1699,13 @@ pre[class*=language-]{
   background-color:red
 }
 
-/*purgecss end ignore*/</style><link rel="preload" href="/_nuxt/static/1640881615/php/php-htmlspecialchars-function/state.js" as="script"><link rel="preload" href="/_nuxt/static/1640881615/php/php-htmlspecialchars-function/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1640881615/manifest.js" as="script">
+/*purgecss end ignore*/</style><link rel="preload" href="/_nuxt/static/1643049363/php/php-htmlspecialchars-function/state.js" as="script"><link rel="preload" href="/_nuxt/static/1643049363/php/php-htmlspecialchars-function/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1643049363/manifest.js" as="script">
   </head>
   <body >
-    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><section id="app"><header id="main-header" class="py-3 px-6 xl:px-0 mx-auto max-w-7xl"><div class="flex justify-between items-center"><a href="/" title="afgprogrammer - mohammad rahmani"><div class="w-8"><img data-src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full"></div></a> <nav class="text-gray-600 text-sm"><a href="/blog" title="afgprogrammer-blog" class="mx-4">Blog</a> <a href="/php" title="afgprogrammer-blog" class="font-medium text-gray-900">PHP</a> <a href="/flutter" title="afgprogrammer-flutter" class="mx-4">Flutter</a> <a href="/presentations" title="presentations - afgprogrammer">Presentations</a></nav></div></header> <article class="mx-auto max-w-7xl px-6 xl:px-0"><div class="flex py-6"><ul class="m-0 flex flex-wrap"><li class="relative mr-2"><a href="/" title="Home" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>Home</span></a> <span class="text-gray-500 ml-2">/</span></li><li class="relative mr-2"><a href="/php" title="PHP" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>PHP</span></a> <span class="text-gray-500 ml-2">/</span></li><li class="relative mr-2"><a href="php-htmlspecialchars-function" title="PHP htmlspecialchars() Function" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>PHP htmlspecialchars() Function</span></a> <!----></li></ul></div> <div class="h-4"></div> <div class="grid grid-cols-1 lg:grid-cols-2 gap-8"><div><img data-src="/images/php/php-htmlspecialchars-function.png" alt="PHP htmlspecialchars() Function" class="rounded-t-lg"></div> <div class="grid"><div><h1 class="text-4xl font-bold tracking-wide">PHP htmlspecialchars() Function</h1> <div class="mt-8 text-lg text-gray-700 font-light">The htmlspecialchars() function converts some predefined characters to HTML entities. <br><br> <strong>The predefined characters are:<br></strong>
-& (ampersand) becomes &amp;<br> " (double quote) becomes &quot;<br> ' (single quote) becomes &#039;<br> < (less than) becomes &lt;<br> > (greater than) becomes &gt;<br> </div></div> <div class="self-end grid grid-cols-2 mt-9 lg:mt-0"><div><span class="text-xs text-gray-600">July 8, 2021</span> <div><span class="mr-5 text-blue-900">php</span><span class="mr-5 text-blue-900">htmlspecialchars</span></div></div> <div class="self-end justify-self-end"><a href="https://www.instagram.com/p/CRB8IH_DC8J/?utm_source=ig_web_copy_link" target="_blank" title="language.php - Instagram" class="text-sm text-blue-900">Instagram</a></div></div></div></div> <div class="h-4"></div> <ins data-ad-slot="4018468658" data-ad-format="auto" data-ad-region="page-0.7379297587819413" data-analytics-domain-name="afgprogrammer.com" ad-label="php-ads" class="adsbygoogle" style="display:block;"></ins> <div class="h-4"></div></article> <div class="mx-auto max-w-7xl absolute bottom-0"></div></section></div></div><script defer src="/_nuxt/static/1640881615/php/php-htmlspecialchars-function/state.js"></script><script src="/_nuxt/d4fcf17.js" defer></script><script src="/_nuxt/d65f352.js" defer></script><script src="/_nuxt/3fd28fd.js" defer></script><script src="/_nuxt/2a1f72d.js" defer></script><script src="/_nuxt/6a84851.js" defer></script>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><section id="app"><header id="main-header" class="py-5 px-6 xl:px-0 mx-auto max-w-6xl"><div class="flex items-center bg-white py-3 px-5 rounded-full header-shadow"><a href="/" title="afgprogrammer - mohammad rahmani"><div class="w-8"><img data-src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full"></div></a> <div class="flex flex-1 justify-between items-center"><nav class="text-gray-800 text-sm font-normal ml-5"><a href="/blog" title="blog" class="hover:bg-gray-100 px-4 py-2 rounded-full">Blog</a> <a href="/php" title="php" class="hover:bg-gray-100 px-4 py-2 rounded-full font-medium text-gray-900 bg-gray-100">PHP</a> <a href="/flutter" title="flutter" class="hover:bg-gray-100 px-4 py-2 rounded-full">Flutter</a> <a href="/presentations" title="presentations" class="hover:bg-gray-100 px-4 py-2 rounded-full hidden">Presentations</a></nav> <div class="hidden"><button class="bg-yellow-300 hover:bg-yellow-400 px-3 py-2 px-5 rounded-full text-sm">Connect Wallet</button></div></div></div></header> <article class="mx-auto max-w-6xl px-6 xl:px-0"><div class="flex py-6"><ul class="m-0 flex flex-wrap"><li class="relative mr-2"><a href="/" title="Home" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>Home</span></a> <span class="text-gray-500 ml-2">/</span></li><li class="relative mr-2"><a href="/php" title="PHP" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>PHP</span></a> <span class="text-gray-500 ml-2">/</span></li><li class="relative mr-2"><a href="php-htmlspecialchars-function" title="PHP htmlspecialchars() Function" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>PHP htmlspecialchars() Function</span></a> <!----></li></ul></div> <div class="h-4"></div> <div class="grid grid-cols-1 lg:grid-cols-2 gap-8"><div><img data-src="/images/php/php-htmlspecialchars-function.png" alt="PHP htmlspecialchars() Function" class="rounded-t-lg"></div> <div class="grid"><div><h1 class="text-4xl font-bold tracking-wide">PHP htmlspecialchars() Function</h1> <div class="mt-8 text-lg text-gray-700 font-light">The htmlspecialchars() function converts some predefined characters to HTML entities. <br><br> <strong>The predefined characters are:<br></strong>
+& (ampersand) becomes &amp;<br> " (double quote) becomes &quot;<br> ' (single quote) becomes &#039;<br> < (less than) becomes &lt;<br> > (greater than) becomes &gt;<br> </div></div> <div class="self-end grid grid-cols-2 mt-9 lg:mt-0"><div><span class="text-xs text-gray-600">July 8, 2021</span> <div><span class="mr-5 text-blue-900">php</span><span class="mr-5 text-blue-900">htmlspecialchars</span></div></div> <div class="self-end justify-self-end"><a href="https://www.instagram.com/p/CRB8IH_DC8J/?utm_source=ig_web_copy_link" target="_blank" title="language.php - Instagram" class="text-sm text-blue-900">Instagram</a></div></div></div></div> <div class="h-4"></div> <ins data-ad-slot="4018468658" data-ad-format="auto" data-ad-region="page-0.03367349085802407" data-analytics-domain-name="afgprogrammer.com" ad-label="php-ads" class="adsbygoogle" style="display:block;"></ins> <div class="h-4"></div></article> <footer class="py-10 px-5 text-center mx-auto max-w-5xl"><span class="font-light text-md"><a href="https://github.com/afgprogrammer" title="afgprogrammer - Github" target="_blank" class="underline text-gray-700"><span>Github</span></a>, 
+      <a href="https://youtube.com/afgprogrammer" title="afgprogrammer - Youtube Channel" target="_blank" class="underline text-gray-700"><span>Youtube</span></a>, 
+      <a href="https://twitter.com/afgprogrammer" title="afgprogrammer - Twitter" target="_blank" class="underline text-gray-700"><span>Twitter</span></a>, 
+      <a href="https://instagram.com/afgprogrammer" title="afgprogrammer - Instagram Page" target="_blank" class="underline text-gray-700"><span>Instagram</span></a></span> <p class="mt-6 text-sm text-gray-500">The website build on NuxtJS. Thanks for visiting ❤️  &amp; have a nice!</p></footer></section></div></div><script defer src="/_nuxt/static/1643049363/php/php-htmlspecialchars-function/state.js"></script><script src="/_nuxt/9280d21.js" defer></script><script src="/_nuxt/8640c29.js" defer></script><script src="/_nuxt/9a73f7e.js" defer></script><script src="/_nuxt/dc68b12.js" defer></script><script src="/_nuxt/1915c11.js" defer></script>
   </body>
 </html>
