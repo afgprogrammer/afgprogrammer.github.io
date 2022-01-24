@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-7xl">
+  <section class="mx-auto max-w-6xl">
     <div class="flex py-6 px-6 xl:px-0">
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
@@ -10,7 +10,7 @@
       ad-label="blog-ads"
     />
     <div class="h-4"></div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 lg:px-0">
       <div v-for="(post, index) of posts" :key="index" class="border rounded-xl">
         <router-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
           <img :data-src="post.image" :alt="post.title" class="rounded-t-xl" v-lazy-load/>

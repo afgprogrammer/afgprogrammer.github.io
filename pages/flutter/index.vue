@@ -1,38 +1,22 @@
 <template>
-  <section class="mx-auto max-w-7xl">
-    <div class="flex py-6 px-6 xl:px-0">
-      <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
-    </div>
+  <section class="mx-auto max-w-6xl px-6 xl:px-0">
     <div class="h-4"></div>
     <adsbygoogle 
       ad-slot="5508803088" 
       ad-format="auto"
       ad-label="flutter-ads"
     />
-    <div class="h-8"></div>
-    <div class="py-5 px-3 flex flex-col items-center">
-      <img src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full w-16">
-      <h1 class="text-2xl mt-4 text-gray-800">The Flutter Lover</h1>
-      <a href="https://instagram.com/theflutterlover" class="text-md text-blue-500 mt-1">@theflutterlover</a>
-      <p class="max-w-2xl px-5 md:px-0 text-center mt-10 text-xl text-gray-700 font-light">
-        Hey there 👋🏼
-        I'm Mohammad Rahmani, a Software Engineer based in Kabul, Afghanistan. I love Flutter, and Web Development. I'm currently working on Flutter 100 Days Challenge 👨🏽‍💻. 
-        <br>
-        <br>
-        👇🏼👇🏼👇🏼👇🏼
-      </p>
-    </div>
     <div class="h-4"></div>
-    <div class="grid grid-cols-1 md:grid-cols-2 border-t pt-8" v-if="days">
-      <div v-for="(day, index) in days" :key="index">
-        <div class="p-5 md:p-3 border-b border-gray-200 mb-5">
-          <iframe class="rounded-xl" width="100%" height="500" :src="day.video.replace('youtu.be', 'youtube.com/embed')" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <h3 class="mt-4">{{ day.name }}</h3>
-          <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>
-          <div class="mt-5 flex items-center">
-            <a :href="day.video" title="" class="text-red-700">Video Link</a>
-            <div class="w-2 h-2 mx-3 bg-gray-200 rounded-full"></div>
-            <a :href="day.repository" title="">Source Code</a>
+    <div class="grid grid-cols-1 md:grid-cols-2 pt-8 gap-10" v-if="days">
+      <div v-for="(day, index) in days" :key="index" class="bg-white rounded-lg border-2 border-gray-100">
+        <div class="">
+          <iframe class="rounded-t-xl" width="100%" height="400" :src="day.video.replace('youtu.be', 'youtube.com/embed')" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="p-4 pr-2">
+            <h3 class="mt-4 font-medium text-gray-700">{{ day.name }}</h3>
+            <p class="text-gray-400 tracking-wider text-xs mt-2">{{ day.summery }}</p>
+            <div class="mt-5 text-right">
+              <a :href="day.repository" title="" class="hover:bg-gray-100 px-4 py-2 rounded-full"> 🔗 Source code</a>
+            </div>
           </div>
         </div>
       </div>

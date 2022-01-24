@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-7xl px-6 xl:px-0">
+  <section class="mx-auto max-w-6xl px-6 xl:px-0">
     <div class="flex py-6">
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
