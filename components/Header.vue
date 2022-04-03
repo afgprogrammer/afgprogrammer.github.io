@@ -9,12 +9,6 @@
           <a href="/flutter" title="flutter" class="hover:bg-gray-100 px-4 py-2 rounded-full" :class="{'font-medium text-gray-900 bg-gray-100': isRouteActive('/flutter')}">Flutter</a>
           <a href="/presentations" title="presentations" class="hover:bg-gray-100 px-4 py-2 rounded-full hidden" :class="{'font-medium text-gray-900 bg-gray-100': isRouteActive('presentation')}">Presentations</a>
         </nav>
-        <!-- <div class="" v-if="user">
-          <p class="w-52 truncate">{{ user.get('ethAddress') }}</p>
-        </div> -->
-        <div class="hidden">
-          <button class="bg-yellow-300 hover:bg-yellow-400 px-3 py-2 px-5 rounded-full text-sm">{{ 'Connect Wallet' }}</button>
-        </div>
       </div>
     </div>
   </header>
@@ -28,30 +22,10 @@ export default {
     }
   },
 
-  mounted() {
-    // this.user = this.$moralis.User.current()
-  },
-
   methods: {
     isRouteActive(name) {
       return this.$route.path.includes(name)
     },
-
-    // async login() {
-    //   this.user = this.$moralis.User.current()
-
-    //   if (!this.user) {
-    //     let options = { 
-    //       signingMessage: "Log in using to continue" 
-    //     }
-
-    //     // add wallet connect options for mobile users
-    //     if (/Mobi/.test(navigator.userAgent))
-    //       options.provider = "walletconnect"
-
-    //     this.user = await this.$moralis.authenticate(options) 
-    //   }
-    // }
   }
 }
 </script>
