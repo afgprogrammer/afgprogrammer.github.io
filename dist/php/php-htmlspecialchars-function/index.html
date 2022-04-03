@@ -6,7 +6,7 @@
     google_ad_client: "ca-pub-2490274469917078",
     enable_page_level_ads: false,
     overlays: {bottom: true}
-  }); window.__abg_called = true;}</script><link rel="preload" href="/_nuxt/9280d21.js" as="script"><link rel="preload" href="/_nuxt/9a73f7e.js" as="script"><link rel="preload" href="/_nuxt/dc68b12.js" as="script"><link rel="preload" href="/_nuxt/1915c11.js" as="script"><link rel="preload" href="/_nuxt/8640c29.js" as="script"><style data-vue-ssr-id="d706d280:0 66882d73:0 b682ae5a:0">/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*/
+  }); window.__abg_called = true;}</script><link rel="preload" href="/_nuxt/c176dbb.js" as="script"><link rel="preload" href="/_nuxt/74a9350.js" as="script"><link rel="preload" href="/_nuxt/745dcf3.js" as="script"><link rel="preload" href="/_nuxt/c8100ee.js" as="script"><link rel="preload" href="/_nuxt/07f8a40.js" as="script"><style data-vue-ssr-id="d706d280:0 66882d73:0 b682ae5a:0">/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*/
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -219,6 +219,11 @@ button,
 Remove the inner border and padding in Firefox.
 */
 
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
 /**
 Restore the focus styles unset by the previous rule.
 */
@@ -248,6 +253,11 @@ progress {
 Correct the cursor style of increment and decrement buttons in Safari.
 */
 
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
 /**
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
@@ -262,10 +272,19 @@ Correct the cursor style of increment and decrement buttons in Safari.
 Remove the inner padding in Chrome and Safari on macOS.
 */
 
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
 /**
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to 'inherit' in Safari.
 */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
 
 /*
 Interactive
@@ -1699,13 +1718,13 @@ pre[class*=language-]{
   background-color:red
 }
 
-/*purgecss end ignore*/</style><link rel="preload" href="/_nuxt/static/1643049363/php/php-htmlspecialchars-function/state.js" as="script"><link rel="preload" href="/_nuxt/static/1643049363/php/php-htmlspecialchars-function/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1643049363/manifest.js" as="script">
+/*purgecss end ignore*/</style><link rel="preload" href="/_nuxt/static/1649001959/php/php-htmlspecialchars-function/state.js" as="script"><link rel="preload" href="/_nuxt/static/1649001959/php/php-htmlspecialchars-function/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1649001959/manifest.js" as="script">
   </head>
   <body >
     <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><section id="app"><header id="main-header" class="py-5 px-6 xl:px-0 mx-auto max-w-6xl"><div class="flex items-center bg-white py-3 px-5 rounded-full header-shadow"><a href="/" title="afgprogrammer - mohammad rahmani"><div class="w-8"><img data-src="/images/afgprogrammer-logo.png" alt="afgprogrammer-logo" class="rounded-full"></div></a> <div class="flex flex-1 justify-between items-center"><nav class="text-gray-800 text-sm font-normal ml-5"><a href="/blog" title="blog" class="hover:bg-gray-100 px-4 py-2 rounded-full">Blog</a> <a href="/php" title="php" class="hover:bg-gray-100 px-4 py-2 rounded-full font-medium text-gray-900 bg-gray-100">PHP</a> <a href="/flutter" title="flutter" class="hover:bg-gray-100 px-4 py-2 rounded-full">Flutter</a> <a href="/presentations" title="presentations" class="hover:bg-gray-100 px-4 py-2 rounded-full hidden">Presentations</a></nav> <div class="hidden"><button class="bg-yellow-300 hover:bg-yellow-400 px-3 py-2 px-5 rounded-full text-sm">Connect Wallet</button></div></div></div></header> <article class="mx-auto max-w-6xl px-6 xl:px-0"><div class="flex py-6"><ul class="m-0 flex flex-wrap"><li class="relative mr-2"><a href="/" title="Home" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>Home</span></a> <span class="text-gray-500 ml-2">/</span></li><li class="relative mr-2"><a href="/php" title="PHP" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>PHP</span></a> <span class="text-gray-500 ml-2">/</span></li><li class="relative mr-2"><a href="php-htmlspecialchars-function" title="PHP htmlspecialchars() Function" class="text-gray-500 text-sm last:text-gray-900 last:font-medium"><span>PHP htmlspecialchars() Function</span></a> <!----></li></ul></div> <div class="h-4"></div> <div class="grid grid-cols-1 lg:grid-cols-2 gap-8"><div><img data-src="/images/php/php-htmlspecialchars-function.png" alt="PHP htmlspecialchars() Function" class="rounded-t-lg"></div> <div class="grid"><div><h1 class="text-4xl font-bold tracking-wide">PHP htmlspecialchars() Function</h1> <div class="mt-8 text-lg text-gray-700 font-light">The htmlspecialchars() function converts some predefined characters to HTML entities. <br><br> <strong>The predefined characters are:<br></strong>
-& (ampersand) becomes &amp;<br> " (double quote) becomes &quot;<br> ' (single quote) becomes &#039;<br> < (less than) becomes &lt;<br> > (greater than) becomes &gt;<br> </div></div> <div class="self-end grid grid-cols-2 mt-9 lg:mt-0"><div><span class="text-xs text-gray-600">July 8, 2021</span> <div><span class="mr-5 text-blue-900">php</span><span class="mr-5 text-blue-900">htmlspecialchars</span></div></div> <div class="self-end justify-self-end"><a href="https://www.instagram.com/p/CRB8IH_DC8J/?utm_source=ig_web_copy_link" target="_blank" title="language.php - Instagram" class="text-sm text-blue-900">Instagram</a></div></div></div></div> <div class="h-4"></div> <ins data-ad-slot="4018468658" data-ad-format="auto" data-ad-region="page-0.03367349085802407" data-analytics-domain-name="afgprogrammer.com" ad-label="php-ads" class="adsbygoogle" style="display:block;"></ins> <div class="h-4"></div></article> <footer class="py-10 px-5 text-center mx-auto max-w-5xl"><span class="font-light text-md"><a href="https://github.com/afgprogrammer" title="afgprogrammer - Github" target="_blank" class="underline text-gray-700"><span>Github</span></a>, 
+& (ampersand) becomes &amp;<br> " (double quote) becomes &quot;<br> ' (single quote) becomes &#039;<br> < (less than) becomes &lt;<br> > (greater than) becomes &gt;<br> </div></div> <div class="self-end grid grid-cols-2 mt-9 lg:mt-0"><div><span class="text-xs text-gray-600">July 8, 2021</span> <div><span class="mr-5 text-blue-900">php</span><span class="mr-5 text-blue-900">htmlspecialchars</span></div></div> <div class="self-end justify-self-end"><a href="https://www.instagram.com/p/CRB8IH_DC8J/?utm_source=ig_web_copy_link" target="_blank" title="language.php - Instagram" class="text-sm text-blue-900">Instagram</a></div></div></div></div> <div class="h-4"></div> <ins data-ad-slot="4018468658" data-ad-format="auto" data-ad-region="page-0.9167784266859678" data-analytics-domain-name="afgprogrammer.com" ad-label="php-ads" class="adsbygoogle" style="display:block;"></ins> <div class="h-4"></div></article> <footer class="py-10 px-5 text-center mx-auto max-w-5xl"><span class="font-light text-md"><a href="https://github.com/afgprogrammer" title="afgprogrammer - Github" target="_blank" class="underline text-gray-700"><span>Github</span></a>, 
       <a href="https://youtube.com/afgprogrammer" title="afgprogrammer - Youtube Channel" target="_blank" class="underline text-gray-700"><span>Youtube</span></a>, 
       <a href="https://twitter.com/afgprogrammer" title="afgprogrammer - Twitter" target="_blank" class="underline text-gray-700"><span>Twitter</span></a>, 
-      <a href="https://instagram.com/afgprogrammer" title="afgprogrammer - Instagram Page" target="_blank" class="underline text-gray-700"><span>Instagram</span></a></span> <p class="mt-6 text-sm text-gray-500">The website build on NuxtJS. Thanks for visiting ❤️  &amp; have a nice!</p></footer></section></div></div><script defer src="/_nuxt/static/1643049363/php/php-htmlspecialchars-function/state.js"></script><script src="/_nuxt/9280d21.js" defer></script><script src="/_nuxt/8640c29.js" defer></script><script src="/_nuxt/9a73f7e.js" defer></script><script src="/_nuxt/dc68b12.js" defer></script><script src="/_nuxt/1915c11.js" defer></script>
+      <a href="https://instagram.com/afgprogrammer" title="afgprogrammer - Instagram Page" target="_blank" class="underline text-gray-700"><span>Instagram</span></a></span> <p class="mt-6 text-sm text-gray-500">The website build on NuxtJS. Thanks for visiting ❤️  &amp; have a nice!</p></footer></section></div></div><script defer src="/_nuxt/static/1649001959/php/php-htmlspecialchars-function/state.js"></script><script src="/_nuxt/c176dbb.js" defer></script><script src="/_nuxt/07f8a40.js" defer></script><script src="/_nuxt/74a9350.js" defer></script><script src="/_nuxt/745dcf3.js" defer></script><script src="/_nuxt/c8100ee.js" defer></script>
   </body>
 </html>

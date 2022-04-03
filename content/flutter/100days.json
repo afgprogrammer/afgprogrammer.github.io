@@ -947,7 +947,7 @@
     },
     {
       "name": "Flutter 100 Days of Code Challenge - Day 58 #shorts",
-      "summery": "Day 57 of Flutter 100 days of code.",
+      "summery": "Day 58 of Flutter 100 days of code.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/ycBoOuodzxk",
       "tags": [
@@ -968,6 +968,15 @@
       "summery": "Flutter Example.",
       "repository": "https://github.com/afgprogrammer/Flutter-examples",
       "video": "https://youtu.be/UiauIx8OVPk",
+      "tags": [
+        "UI", "Example"
+      ]
+    },
+    {
+      "name": "Flutter e-commerce app with GetX - Day 59 #shorts",
+      "summery": "Day 58 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-ecommerce-app-with-getx",
+      "video": "https://youtu.be/WwGl9i-q4Yc",
       "tags": [
         "UI", "Example"
       ]
