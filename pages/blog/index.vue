@@ -4,12 +4,6 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
-    <adsbygoogle 
-      ad-slot="9238225491" 
-      ad-format="auto"
-      ad-label="blog-ads"
-    />
-    <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 lg:px-0">
       <div v-for="(post, index) of posts" :key="index" class="border rounded-xl">
         <router-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">

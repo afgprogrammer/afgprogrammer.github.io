@@ -21,12 +21,6 @@
       </div>
     </div>
     <div class="h-4"></div>
-    <adsbygoogle 
-      ad-slot="9754475321" 
-      ad-format="auto"
-      ad-label="php-ads"
-    />
-    <div class="h-4"></div>
     <nuxt-content :document="blog" class="py-9"/>
   </article>
 </template>

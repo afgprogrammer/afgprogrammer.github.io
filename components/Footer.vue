@@ -6,7 +6,7 @@
           <a href="https://twitter.com/afgprogrammer" title="afgprogrammer - Twitter" class="underline text-gray-700" target="_blank"><span>Twitter</span></a>,&nbsp;
           <a href="https://instagram.com/afgprogrammer" title="afgprogrammer - Instagram Page" class="underline text-gray-700" target="_blank"><span>Instagram</span></a>
         </span>
-        <p class="mt-6 text-sm text-gray-500">The website build on NuxtJS. Thanks for visiting ❤️  & have a nice!</p>
+        <p class="mt-6 text-sm text-gray-500">The website is build on NuxtJS. Thanks for visiting ❤️  & have a nice day</p>
     </footer>
 </template>
 
