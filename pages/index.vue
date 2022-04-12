@@ -3,8 +3,8 @@
     <div class="mx-auto max-w-5xl tracking-wide px-6 xl:px-0">
       <div class="h-24"></div>
       <div class="text-center">
-        <h1 class="text-4xl lg:text-5xl xl:text-6xl font-semibold leading-normal">
-          I'm Mohammad - UI Designer, Content Creator, & Software Developer
+        <h1 class="text-4xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-6xl font-semibold xl:leading-tight">
+          I'm Mohammad - Software Developer, Content Creator and Flutter Enthusiast
         </h1>
         <div class="h-8"></div>
         <span class="font-light text-lg">
@@ -18,7 +18,7 @@
     <div class="mx-auto max-w-6xl tracking-wide px-6 xl:px-0">
       <div class="h-24"></div>
       <div class="flex flex-col items-center">
-        <h2 class="text-2xl font-light">Featured Work</h2>
+        <h2 class="text-2xl font-light">Featured Works</h2>
         <div class="h-2 w-20 bg-gray-100 rounded-full mt-3"></div>
       </div>
       <div class="h-28"></div>
@@ -65,12 +65,12 @@
     <div class="py-14">
       <div class="text-center">
         <div class="flex flex-col items-center">
-          <h2 class="text-3xl font-light">Let's work together</h2>
+          <h2 class="text-2xl font-light">Let's work together</h2>
           <div class="h-2 w-20 bg-gray-100 rounded-full mt-3"></div>
         </div>
         <!-- <h2 class="text-3xl font-light">Let's work together</h2> -->
-        <div class="h-8"></div>
-        <a href="mailto:rto1680@gmail.com" class="text-xl text-gray-600" title="contact">rto1680@gmail.com</a>
+        <div class="h-20"></div>
+        <a href="mailto:rto1680@gmail.com" class="text-3xl text-gray-600" title="contact">rto1680@gmail.com</a>
       </div>
     </div>
     <div class="h-32"></div>
