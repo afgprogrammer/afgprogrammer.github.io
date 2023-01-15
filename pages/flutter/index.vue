@@ -1,22 +1,13 @@
 <template>
   <section class="mx-auto max-w-6xl px-6 xl:px-0">
     <div class="h-4"></div>
-    <adsbygoogle
+    <!-- <adsbygoogle
       ad-slot="5508803088"
       ad-format="auto"
       ad-label="flutter-ads"
     />
-    <div class="h-4"></div>
-    <script type="text/javascript">
-      atOptions = {
-        'key' : 'c1dba7a8cff140c7f7073a2aff437004',
-        'format' : 'iframe',
-        'height' : 90,
-        'width' : 728,
-        'params' : {}
-      };
-      document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/c1dba7a8cff140c7f7073a2aff437004/invoke.js"></scr' + 'ipt>');
-    </script>
+    <div class="h-4"></div> -->
+    <iframe data-aa='2152646' src='//acceptable.a-ads.com/2152646' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
     <div class="h-4"></div>
     <div class="flex">
       <div class="w-full border border-gray-100 rounded-xl p-6 ">
