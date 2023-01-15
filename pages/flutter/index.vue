@@ -1,12 +1,23 @@
 <template>
   <section class="mx-auto max-w-6xl px-6 xl:px-0">
     <div class="h-4"></div>
-    <adsbygoogle 
-      ad-slot="5508803088" 
+    <adsbygoogle
+      ad-slot="5508803088"
       ad-format="auto"
       ad-label="flutter-ads"
     />
-    <div class="h-8"></div>
+    <div class="h-4"></div>
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'c1dba7a8cff140c7f7073a2aff437004',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/c1dba7a8cff140c7f7073a2aff437004/invoke.js"></scr' + 'ipt>');
+    </script>
+    <div class="h-4"></div>
     <div class="flex">
       <div class="w-full border border-gray-100 rounded-xl p-6 ">
         <p class="mb-4 text-lg font-medium">Search in 100+ Flutter Examples </p>
@@ -107,9 +118,9 @@ export default {
   head: {
     title: 'Flutter 100 Days of Code UI Design Example - afgprogrammer',
     meta: [
-      { 
-        name: 'author', 
-        content: 'Mohammad Rahmani - afgprogrammer' 
+      {
+        name: 'author',
+        content: 'Mohammad Rahmani - afgprogrammer'
       },
       {
         name: 'description',
