@@ -4,11 +4,16 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
-    <adsbygoogle 
-      ad-slot="9238225491" 
+    <div class="flex justify-center">
+      <a href="https://a-ads.com?partner=2152742" target="_blank">
+        <img data-src="/images/crypto_advertising_network.gif" alt="Crypto Advertising Network" v-lazy-load/>
+      </a>
+    </div>
+    <!-- <adsbygoogle
+      ad-slot="9238225491"
       ad-format="auto"
       ad-label="php-ads"
-    />
+    /> -->
     <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-0">
       <div v-for="(article, index) of articles" :key="index">
@@ -40,9 +45,9 @@ export default {
   head: {
     title: 'Everyday PHP example - afgprogrammer',
     meta: [
-      { 
-        name: 'author', 
-        content: 'Mohammad Rahmani - afgprogrammer' 
+      {
+        name: 'author',
+        content: 'Mohammad Rahmani - afgprogrammer'
       },
       {
         name: 'description',
@@ -85,7 +90,7 @@ export default {
       }
     ]
   },
-  
+
   methods: {
     breadcrumbLinks() {
       return [

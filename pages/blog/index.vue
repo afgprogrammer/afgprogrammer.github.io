@@ -4,6 +4,12 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
+    <div class="flex justify-center">
+      <a href="https://a-ads.com?partner=2152742" target="_blank">
+        <img data-src="/images/crypto_advertising_network.gif" alt="Crypto Advertising Network" v-lazy-load/>
+      </a>
+    </div>
+    <div class="h-4"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 lg:px-0">
       <div v-for="(post, index) of posts" :key="index" class="border rounded-xl">
         <router-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
@@ -37,9 +43,9 @@ export default {
   head: {
     title: 'Afgprogrammer blog',
     meta: [
-      { 
-        name: 'author', 
-        content: 'Mohammad Rahmani - afgprogrammer' 
+      {
+        name: 'author',
+        content: 'Mohammad Rahmani - afgprogrammer'
       },
       {
         name: 'description',
@@ -82,7 +88,7 @@ export default {
       }
     ]
   },
-  
+
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }

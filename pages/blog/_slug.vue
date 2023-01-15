@@ -20,6 +20,12 @@
         </div>
       </div>
     </div>
+    <div class="h-8"></div>
+    <div class="flex justify-center">
+      <a href="https://a-ads.com?partner=2152742" target="_blank">
+        <img data-src="/images/crypto_advertising_network.gif" alt="Crypto Advertising Network" v-lazy-load/>
+      </a>
+    </div>
     <div class="h-4"></div>
     <nuxt-content :document="blog" class="py-9"/>
   </article>
@@ -36,9 +42,9 @@ export default {
     return {
       title: `${this.blog.title} - afgprogrammer`,
       meta: [
-        { 
-          name: 'author', 
-          content: 'Mohammad Rahmani - afgprogrammer' 
+        {
+          name: 'author',
+          content: 'Mohammad Rahmani - afgprogrammer'
         },
         {
           name: 'description',
@@ -69,7 +75,7 @@ export default {
           name: 'twitter:title',
           content: `${this.blog.title}`,
         },
-        
+
         {
           key: 'twitter:description',
           name: 'twitter:description',
