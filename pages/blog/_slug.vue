@@ -4,6 +4,9 @@
       <breadcrumb :links="breadcrumbLinks()"></breadcrumb>
     </div>
     <div class="h-4"></div>
+    <iframe data-aa='2153784' src='//acceptable.a-ads.com/2153784' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+
+    <div class="h-4"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div>
         <img :src="blog.image" :alt="blog.title" class="rounded-t-lg">
