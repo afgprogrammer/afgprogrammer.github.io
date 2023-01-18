@@ -9,7 +9,7 @@
     <div class="h-4"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div>
-        <img :src="blog.image" :alt="blog.title" class="rounded-t-lg">
+        <img :src="blog.image" :alt="blog.title" height="558" class="rounded-t-lg">
       </div>
       <div class="grid">
         <div>
@@ -30,7 +30,9 @@
       </a>
     </div>
     <div class="h-4"></div>
+  <div class="mx-auto max-w-4xl px-6 xl:px-0">
     <nuxt-content :document="blog" class="py-9"/>
+  </div>
   </article>
 </template>
 <script>
