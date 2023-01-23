@@ -13,6 +13,7 @@
           <a href="https://instagram.com/theflutterlover" title="theflutterlover - Instagram Page" class="underline text-gray-700" target="_blank"><span>Instagram</span></a>
         </span>
         <div class="h-40"></div>
+        <iframe data-aa='2157356' src='//acceptable.a-ads.com/2157356' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
       </div>
     </div>
     <div class="mx-auto max-w-6xl tracking-wide px-6 xl:px-0">
@@ -99,9 +100,9 @@ export default {
   head: {
     title: 'Afgprogrammer - Mohammad Rahmani',
     meta: [
-      { 
-        name: 'author', 
-        content: 'Mohammad Rahmani - afgprogrammer' 
+      {
+        name: 'author',
+        content: 'Mohammad Rahmani - afgprogrammer'
       },
       {
         name: 'description',
@@ -155,7 +156,7 @@ export default {
 <style>
 .foreground {
   backdrop-filter: blur(100px);
-} 
+}
 
 .custom-animate-pulse {
   animation: custom-pulse 5s infinite;
