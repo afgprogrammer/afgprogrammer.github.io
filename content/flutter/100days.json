@@ -1016,6 +1016,15 @@
       "tags": [
         "UI", "Example"
       ]
+    },
+    {
+      "name": "Flutter Event Schedule App Example - Day 64",
+      "summery": "Day 64 of Flutter 100 days of code.",
+      "repository": "https://github.com/afgprogrammer/Flutter-event-schedule-app",
+      "video": "https://youtu.be/FD9-IxZEmYs",
+      "tags": [
+        "UI", "Example"
+      ]
     }
   ]
 }
