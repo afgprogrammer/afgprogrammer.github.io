@@ -25,8 +25,11 @@
     </div>
     <div class="h-8"></div>
     <div class="flex justify-center">
-      <a href="https://a-ads.com?partner=2152742" target="_blank">
+      <!-- <a href="https://a-ads.com?partner=2152742" target="_blank">
         <img data-src="/images/crypto_advertising_network.gif" alt="Crypto Advertising Network" v-lazy-load/>
+      </a> -->
+      <a href='https://cryptotabbrowser.com/landing/79/31945204'>
+        <img src='https://cdn.cryptobrowser.store/media/pb/31/fcd9b4b4467d4097b46327a56fc5b5f1.jpg' style="width: 100%" srcset='https://cdn.cryptobrowser.store/media/pb/31/b4fb1fc3f0504c3b8ed9d0e94fe2a516.jpg 2x'>
       </a>
     </div>
     <div class="h-4"></div>
