@@ -1,95 +1,159 @@
-import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
+import {
+  Box,
+  Button,
+  Card,
+  CardSection,
+  Container,
+  Grid,
+  GridCol,
+  Group,
+  Image,
+  Space,
+  Stack,
+  Text,
+  Title,
+} from "@mantine/core";
+import classes from "./page.module.css";
+import { IconArrowUpRight } from "@tabler/icons-react";
+import SiteFooter from "@/_components/footer/Footer";
+import { BannerAnimation } from "@/_components/banner/BannerAnimation";
 
 export default function Home() {
+  const images = [
+    "/banner/one.png",
+    "/banner/two.png",
+    "/banner/three.png",
+    "/banner/four.png",
+    "/banner/one.png",
+    "/banner/two.png",
+    "/banner/three.png",
+    "/banner/four.png",
+  ].map((image) => ({
+    id: crypto.randomUUID(),
+    image,
+  }));
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <>
+      <Space h={30} />
+      <Container size="xl" pos="relative">
+        {/* <Box
+          w={500}
+          h={400}
+          style={{
+            right: 100,
+            position: "absolute",
+            background: "linear-gradient(45deg, red, #1a00ef)",
+            filter: "blur(100px)",
+          }}
+        ></Box> */}
+        <Box style={{ position: "relative" }}>
+          <Title
+            order={1}
+            fz={20}
+            c={"light-dark(var(--mantine-color-dark-9), white)"}
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+            Hey 👋🏼 I'm{" "}
+            <span
+              style={{
+                color:
+                  "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-2))",
+              }}
+            >
+              Mohammad.
+            </span>{" "}
+            <br />
+            <span
+              style={{
+                fontSize: 90,
+                fontWeight: 900,
+                letterSpacing: 1,
+              }}
+            >
+              Building digital product with emphasis on{" "}
+              <span
+                style={{
+                  color:
+                    "light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-2))",
+                }}
+              >
+                visual design.
+              </span>
+            </span>
+          </Title>
+          <Space h={20} />
+          <Text
+            fz={30}
+            c="light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-2))"
+          >
+            I care a lot about using design for positive impact and enjoy
+            creating user-centric, delightful, and human experience.
+          </Text>
+        </Box>
+        <Space h={50} />
+        <Group justify="space-between">
+          <Group>
+            <Button color="black" radius="md" size="md">
+              Talk with me
+            </Button>
+            <Button variant="default" radius="md" size="md">
+              See my work
+            </Button>
+          </Group>
+          <Group>
+            <Link href={"#"} title="" className={classes.link}>
+              Github
+            </Link>
+            <Link href={"#"} title="" className={classes.link}>
+              Youtube
+            </Link>
+            <Link href={"#"} title="" className={classes.link}>
+              Instagram
+            </Link>
+          </Group>
+        </Group>
+      </Container>
+      <Space h={150} />
+      <Box>
+        <BannerAnimation images={images} speed={100000} />
+      </Box>
+      <Space h={150} />
+      <Container size="xl" pos="relative">
+        <Box>
+          <Text fz={40} fw={600}>
+            Selected works
+          </Text>
+          <Space h={32} />
+          <Grid>
+            <GridCol span={6}>
+              <Card withBorder shadow="sm" radius="md">
+                <CardSection>
+                  <Box h={400} bg={"gray.2"}></Box>
+                  {/* <Image
+                    src={"/product-one.png"}
+                    alt="bbbbbb"
+                    width={500}
+                    height={300}
+                  /> */}
+                </CardSection>
+                <Group mt={16}>
+                  <Stack gap={5}>
+                    <Text fw={600} fz={16}>
+                      Bilify
+                    </Text>
+                    <Text fz={14} c={"gray"}>
+                      A digital invoice template for designers{" "}
+                    </Text>
+                  </Stack>
+                </Group>
+              </Card>
+            </GridCol>
+          </Grid>
+        </Box>
+      </Container>
+      <SiteFooter />
+    </>
   );
 }
