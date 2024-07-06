@@ -13,7 +13,7 @@ import { IconArrowUpRight } from "@tabler/icons-react";
 export default function SiteFooter() {
   return (
     <>
-      <Box py={60} bg="gray.3" mt={50}>
+      <Box py={60} bg="gray.3" mt={80}>
         <Container size="lg">
           <Title order={2} fz={80} ta="center" fw={900} c="black" lh={1.2}>
             Want to create something{" "}
