@@ -6,6 +6,7 @@ import {
   Card,
   CardSection,
   Container,
+  Divider,
   Grid,
   GridCol,
   Group,
@@ -16,9 +17,10 @@ import {
   Title,
 } from "@mantine/core";
 import classes from "./page.module.css";
-import { IconArrowUpRight } from "@tabler/icons-react";
+import { IconArrowRight, IconArrowUpRight } from "@tabler/icons-react";
 import SiteFooter from "@/_components/footer/Footer";
 import { BannerAnimation } from "@/_components/banner/BannerAnimation";
+import WorkSection from "@/_components/works/WorkSection";
 
 export default function Home() {
   const images = [
@@ -67,20 +69,29 @@ export default function Home() {
             <br />
             <span
               style={{
-                fontSize: 90,
+                fontSize: 85,
                 fontWeight: 900,
                 letterSpacing: 1,
               }}
             >
-              Building digital product with emphasis on{" "}
-              <span
-                style={{
-                  color:
-                    "light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-2))",
-                }}
+              Building the future with clean, efficient, and{" "}
+              <Text
+                variant="gradient"
+                component="span"
+                gradient={{ from: "green", to: "blue", deg: 90 }}
+                fz={85}
+                fw={900}
+                style={
+                  {
+                    // background: "linear-gradient(45deg, red, blue)",
+                    // backgroundClip: "text",
+                    // color:
+                    //   "light-dark(var(--mantine-color-bluegray-3), var(--mantine-color-dark-2))",
+                  }
+                }
               >
-                visual design.
-              </span>
+                scalable code.
+              </Text>
             </span>
           </Title>
           <Space h={20} />
@@ -116,42 +127,38 @@ export default function Home() {
         </Group>
       </Container>
       <Space h={150} />
-      <Box>
-        <BannerAnimation images={images} speed={100000} />
-      </Box>
+      <Box>{/* <BannerAnimation images={images} speed={100000} /> */}</Box>
       <Space h={150} />
       <Container size="xl" pos="relative">
-        <Box>
-          <Text fz={40} fw={600}>
-            Selected works
-          </Text>
-          <Space h={32} />
-          <Grid>
-            <GridCol span={6}>
-              <Card withBorder shadow="sm" radius="md">
-                <CardSection>
-                  <Box h={400} bg={"gray.2"}></Box>
-                  {/* <Image
-                    src={"/product-one.png"}
-                    alt="bbbbbb"
-                    width={500}
-                    height={300}
-                  /> */}
-                </CardSection>
-                <Group mt={16}>
-                  <Stack gap={5}>
-                    <Text fw={600} fz={16}>
-                      Bilify
-                    </Text>
-                    <Text fz={14} c={"gray"}>
-                      A digital invoice template for designers{" "}
-                    </Text>
-                  </Stack>
-                </Group>
-              </Card>
-            </GridCol>
-          </Grid>
-        </Box>
+        <Grid>
+          <GridCol span={8}>
+            <Title order={2} fz={65} fw={600}>
+              Transforming ideas into elegant, functional digital solutions.
+            </Title>
+          </GridCol>
+          <GridCol span={4}>
+            <Space h={16} />
+            <Text fz={18}>
+              I'm a Full-Stack Software Developer living in Kabul 🇦🇫, and I
+              focus on making digital experiences that are easy to use,
+              enjoyable, and get the job done. I love tackling challenging
+              problems and creating solutions that truly matter to people.
+            </Text>
+            <Space h={32} />
+            <Button
+              variant="default"
+              // color="black"
+              size="lg"
+              radius="xl"
+              rightSection={<IconArrowRight />}
+              fz={16}
+            >
+              About Me
+            </Button>
+          </GridCol>
+        </Grid>
+        <Space h={150} />
+        <WorkSection />
       </Container>
       <SiteFooter />
     </>
