@@ -16,20 +16,20 @@ import { useDisclosure } from "@mantine/hooks";
 import { IconChevronDown, IconMoon, IconSun } from "@tabler/icons-react";
 import classes from "./HeaderMenu.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 const links = [
-  { link: "/explore", label: "Explore" },
+  // { link: "/explore", label: "Explore" },
   {
-    link: "#1",
+    link: "/flutter",
     label: "Flutter",
-    links: [
-      { link: "/docs", label: "Documentation" },
-      { link: "/resources", label: "Resources" },
-      { link: "/community", label: "Community" },
-      { link: "/blog", label: "Blog" },
-    ],
+    // links: [
+    //   { link: "/docs", label: "Documentation" },
+    //   { link: "/resources", label: "Resources" },
+    //   { link: "/community", label: "Community" },
+    //   { link: "/blog", label: "Blog" },
+    // ],
   },
-  { link: "/blog", label: "Blog" },
   { link: "/about-me", label: "About me" },
 ];
 
@@ -57,16 +57,12 @@ export function HeaderMenu() {
           withinPortal
         >
           <Menu.Target>
-            <a
-              href={link.link}
-              className={classes.link}
-              onClick={(event) => event.preventDefault()}
-            >
+            <Link href={link.link} className={classes.link}>
               <Center>
                 <span className={classes.linkLabel}>{link.label}</span>
                 <IconChevronDown size="0.9rem" stroke={1.5} />
               </Center>
-            </a>
+            </Link>
           </Menu.Target>
           <Menu.Dropdown>{menuItems}</Menu.Dropdown>
         </Menu>
@@ -74,14 +70,9 @@ export function HeaderMenu() {
     }
 
     return (
-      <a
-        key={link.label}
-        href={link.link}
-        className={classes.link}
-        onClick={(event) => event.preventDefault()}
-      >
+      <Link key={link.label} href={link.link} className={classes.link}>
         {link.label}
-      </a>
+      </Link>
     );
   });
 
@@ -89,22 +80,24 @@ export function HeaderMenu() {
     <header className={classes.header}>
       <Container size="xl">
         <div className={classes.inner}>
-          <Group gap={8}>
-            <Avatar
-              src={"/logo/afgprogrammer-logo.png"}
-              name="Mohammad Rahmani - Afgprogrammer"
-            />
-            <Text fz={20} fw={600}>
-              <span
-                style={{
-                  color: "light-dark(var(--mantine-color-gray-6), white)",
-                }}
-              >
-                afg
-              </span>
-              programmer
-            </Text>
-          </Group>
+          <UnstyledButton component={Link} href="/" title="afgprogrammer">
+            <Group gap={8}>
+              <Avatar
+                src={"/logo/afgprogrammer-logo.png"}
+                name="Mohammad Rahmani - Afgprogrammer"
+              />
+              <Text fz={20} fw={600}>
+                <span
+                  style={{
+                    color: "light-dark(var(--mantine-color-gray-6), white)",
+                  }}
+                >
+                  afg
+                </span>
+                programmer
+              </Text>
+            </Group>
+          </UnstyledButton>
           {/* <MantineLogo size={28} /> */}
           <Group>
             <Group gap={5} visibleFrom="sm">
