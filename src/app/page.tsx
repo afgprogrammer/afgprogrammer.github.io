@@ -17,7 +17,13 @@ import {
   Title,
 } from "@mantine/core";
 import classes from "./page.module.css";
-import { IconArrowRight, IconArrowUpRight } from "@tabler/icons-react";
+import {
+  IconArrowRight,
+  IconArrowUpRight,
+  IconBrandGithub,
+  IconBrandInstagram,
+  IconBrandYoutube,
+} from "@tabler/icons-react";
 import SiteFooter from "@/_components/footer/Footer";
 import { BannerAnimation } from "@/_components/banner/BannerAnimation";
 import WorkSection from "@/_components/works/WorkSection";
@@ -39,7 +45,7 @@ export default function Home() {
 
   return (
     <>
-      <Space h={30} />
+      <Space h={150} />
       <Container size="xl" pos="relative">
         {/* <Box
           w={500}
@@ -76,19 +82,17 @@ export default function Home() {
             >
               Building the future with clean, efficient, and{" "}
               <Text
-                variant="gradient"
+                variant="text"
                 component="span"
-                gradient={{ from: "green", to: "blue", deg: 90 }}
+                // gradient={{ from: "green", to: "blue", deg: 90 }}
                 fz={85}
                 fw={900}
-                style={
-                  {
-                    // background: "linear-gradient(45deg, red, blue)",
-                    // backgroundClip: "text",
-                    // color:
-                    //   "light-dark(var(--mantine-color-bluegray-3), var(--mantine-color-dark-2))",
-                  }
-                }
+                style={{
+                  // background: "linear-gradient(45deg, red, blue)",
+                  // backgroundClip: "text",
+                  color:
+                    "light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2))",
+                }}
               >
                 scalable code.
               </Text>
@@ -105,29 +109,49 @@ export default function Home() {
         </Box>
         <Space h={50} />
         <Group justify="space-between">
-          <Group>
+          {/* <Group>
             <Button color="black" radius="md" size="md">
               Talk with me
             </Button>
             <Button variant="default" radius="md" size="md">
               See my work
             </Button>
-          </Group>
+          </Group> */}
           <Group>
-            <Link href={"#"} title="" className={classes.link}>
+            <Button
+              variant="default"
+              component={Link}
+              href="#"
+              radius="xl"
+              leftSection={<IconBrandGithub size={18} />}
+            >
               Github
-            </Link>
-            <Link href={"#"} title="" className={classes.link}>
+            </Button>
+            <Button
+              variant="default"
+              component={Link}
+              href="#"
+              radius="xl"
+              leftSection={<IconBrandYoutube size={18} />}
+            >
               Youtube
-            </Link>
-            <Link href={"#"} title="" className={classes.link}>
+            </Button>
+            <Button
+              variant="default"
+              component={Link}
+              href="#"
+              radius="xl"
+              leftSection={<IconBrandInstagram size={18} />}
+            >
               Instagram
-            </Link>
+            </Button>
           </Group>
         </Group>
       </Container>
       <Space h={150} />
-      <Box>{/* <BannerAnimation images={images} speed={100000} /> */}</Box>
+      <Box>
+        <BannerAnimation images={images} speed={100000} />
+      </Box>
       <Space h={150} />
       <Container size="xl" pos="relative">
         <Grid>
@@ -152,6 +176,8 @@ export default function Home() {
               radius="xl"
               rightSection={<IconArrowRight />}
               fz={16}
+              component={Link}
+              href="/about-me"
             >
               About Me
             </Button>
