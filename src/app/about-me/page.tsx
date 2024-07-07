@@ -1,9 +1,6 @@
-import Link from "next/link";
 import {
   Box,
   Button,
-  Card,
-  CardSection,
   Container,
   Divider,
   Grid,
@@ -21,22 +18,14 @@ import { IconArrowUpRight } from "@tabler/icons-react";
 export default function AboutMe() {
   return (
     <>
+      <Space h={100} />
       <Container size="xl" pos="relative">
-        {/* <Box
-          w={500}
-          h={400}
-          style={{
-            right: 100,
-            position: "absolute",
-            background: "linear-gradient(45deg, red, #1a00ef)",
-            filter: "blur(100px)",
-          }}
-        ></Box> */}
         <Box style={{ position: "relative" }}>
           <Title
             order={1}
-            fz={90}
+            fz={80}
             fw={900}
+            ta="center"
             c={"light-dark(var(--mantine-color-dark-9), white)"}
           >
             <span
@@ -45,27 +34,53 @@ export default function AboutMe() {
                   "light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2))",
               }}
             >
-              About me,{" "}
+              About me
             </span>
-            my story and my experience
+            , a Software Developer living in Kabul 🇦🇫
           </Title>
         </Box>
-        <Space h={200} />
+        <Space h={100} />
         <Grid justify="space-between" align="center">
-          <GridCol span={6}>
+          <GridCol span={12}>
             <Image src={"/mohammad-rahmani.jpg"} radius={50} />
+            {/* <Image src={"/me.png"} h={600} radius={50} /> */}
           </GridCol>
-          <GridCol span={5}>
-            <Text fz={20}>
-              As a Senior Software Developer with over 10 years of experience, I
-              specialize in creating intuitive and user-centered interfaces for
-              a wide range of digital products and experiences.
+          <GridCol span={8} mx="auto" mt={50}>
+            <Text fz={24} c="light-dark(black, white)">
+              I'm <strong>Mohammad Rahmani</strong>, a seasoned programmer with
+              over a decade of experience in the dynamic world of{" "}
+              <strong>software development</strong>. My journey in programming
+              has been both challenging and rewarding, allowing me to hone my
+              skills across various programming languages and technologies.
             </Text>
-            <Space h={50} />
+            <Text fz={24} mt={32} c="light-dark(black, white)">
+              Throughout my career, I have had the privilege to work on a
+              diverse array of projects ranging from{" "}
+              <strong>web applications</strong> to complex enterprise solutions.
+              However, my true passion lies in{" "}
+              <strong>mobile application development</strong>. Leveraging the
+              power of <strong>Flutter</strong>, I have developed numerous
+              applications that are not only robust and scalable but also
+              provide seamless and engaging <strong>user experiences</strong>.
+            </Text>
+            <Text fz={24} mt={32} c="light-dark(black, white)">
+              With a commitment to excellence and a passion for innovation, I am
+              dedicated to turning <strong>ideas</strong> into reality through{" "}
+              <strong>code</strong>. Whether you're looking to build a new{" "}
+              <strong>application</strong> from scratch or enhance an existing
+              one, I bring a wealth of knowledge and a proven track record to
+              ensure your project’s <strong>success</strong>.
+            </Text>
+            <Text fz={20} mt={32} c="light-dark(black, white)">
+              Thank you for visiting my page, and I look forward to the
+              possibility of <strong>working together</strong>!
+            </Text>
+            <Space h={32} />
             <Button
+              w={200}
               variant="default"
               component="a"
-              size="xl"
+              size="lg"
               fz={16}
               radius="xl"
               href="mailto:rto1680@gmail.com"
