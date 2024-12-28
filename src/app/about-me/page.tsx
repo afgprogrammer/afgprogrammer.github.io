@@ -44,13 +44,17 @@ export default function AboutMe() {
         <Space h={100} />
         <Grid justify="space-between" align="center">
           <GridCol span={12}>
-            <Image src={"/mohammad-rahmani.jpg"} radius={50} />
-            {/* <Image src={"/me.png"} h={600} radius={50} /> */}
+            <Image
+              width={"100%"}
+              src="/mohammad-rahmani.jpg"
+              alt="Mohammad Rahmani - afgprogrammer"
+              radius={50}
+            />
           </GridCol>
           <GridCol span={{ lg: 8 }} mx="auto" mt={50}>
             <Text fz={{ sm: 24, xs: 16 }} c="light-dark(black, white)">
-              I'm <strong>Mohammad Rahmani</strong>, a seasoned programmer with
-              over a decade of experience in the dynamic world of{" "}
+              I&apos;m <strong>Mohammad Rahmani</strong>, a seasoned programmer
+              with over a decade of experience in the dynamic world of{" "}
               <strong>software development</strong>. My journey in programming
               has been both challenging and rewarding, allowing me to hone my
               skills across various programming languages and technologies.
@@ -68,10 +72,10 @@ export default function AboutMe() {
             <Text fz={{ sm: 24, xs: 16 }} mt={32} c="light-dark(black, white)">
               With a commitment to excellence and a passion for innovation, I am
               dedicated to turning <strong>ideas</strong> into reality through{" "}
-              <strong>code</strong>. Whether you're looking to build a new{" "}
+              <strong>code</strong>. Whether you&apos;re looking to build a new{" "}
               <strong>application</strong> from scratch or enhance an existing
               one, I bring a wealth of knowledge and a proven track record to
-              ensure your project’s <strong>success</strong>.
+              ensure your project&apos;s <strong>success</strong>.
             </Text>
             <Text fz={{ sm: 20, xs: 16 }} mt={32} c="light-dark(black, white)">
               Thank you for visiting my page, and I look forward to the
@@ -88,7 +92,7 @@ export default function AboutMe() {
               href="mailto:rto1680@gmail.com"
               rightSection={<IconArrowUpRight size={22} />}
             >
-              Let's Talk
+              Let&apos;s Talk
             </Button>
           </GridCol>
         </Grid>

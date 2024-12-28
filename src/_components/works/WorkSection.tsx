@@ -1,5 +1,6 @@
 import { Box, Button, Divider, Group, Space, Stack, Text } from "@mantine/core";
 import { IconArrowRight, IconDownload } from "@tabler/icons-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function WorkSection() {
@@ -31,7 +32,7 @@ export default function WorkSection() {
             bg={"gray.2"}
             style={{ borderRadius: 10, overflow: "hidden" }}
           >
-            <img
+            <Image
               alt="fff"
               src={"/banner/one.png"}
               style={{ width: "100%", objectFit: "cover", height: 200 }}

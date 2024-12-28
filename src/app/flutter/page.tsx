@@ -40,7 +40,7 @@ export default function AboutMe() {
   useEffect(() => {
     setExamples(originalData.slice(visibleCount, perPage));
     setVisibleCount(perPage);
-  }, []);
+  }, [perPage, visibleCount]);
 
   const handleSearch = useDebouncedCallback(async (query: string) => {
     if (query.length) {
@@ -108,9 +108,9 @@ export default function AboutMe() {
         </Box>
         <Space h={40} />
         <Grid>
-          {examples.map((day) => {
+          {examples.map((day, i) => {
             return (
-              <GridCol span={{ lg: 4, sm: 6, xs: 12 }}>
+              <GridCol key={`id-${i}`} span={{ lg: 4, sm: 6, xs: 12 }}>
                 <Card radius="md" withBorder style={{ overflow: "hidden" }}>
                   <CardSection>
                     <Box>

@@ -63,7 +63,7 @@ export default function Home() {
             fz={32}
             c={"light-dark(var(--mantine-color-dark-9), white)"}
           >
-            Hey 👋🏼 I'm{" "}
+            Hey 👋🏼 I&apos;m{" "}
             <span
               style={{
                 color:
@@ -159,7 +159,7 @@ export default function Home() {
           <GridCol span={{ lg: 4 }}>
             <Space h={16} />
             <Text fz={18}>
-              I'm a Full-Stack Software Developer living in Kabul 🇦🇫, and I
+              I&apos;m a Full-Stack Software Developer living in Kabul 🇦🇫, and I
               focus on making digital experiences that are easy to use,
               enjoyable, and get the job done. I love tackling challenging
               problems and creating solutions that truly matter to people.
@@ -180,7 +180,6 @@ export default function Home() {
           </GridCol>
         </Grid>
         <Space h={150} />
-        {/* <WorkSection /> */}
       </Container>
       <SiteFooter />
     </>
