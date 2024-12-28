@@ -40,7 +40,7 @@ export default function AboutMe() {
   useEffect(() => {
     setExamples(originalData.slice(visibleCount, perPage));
     setVisibleCount(perPage);
-  }, [perPage, visibleCount]);
+  }, []);
 
   const handleSearch = useDebouncedCallback(async (query: string) => {
     if (query.length) {

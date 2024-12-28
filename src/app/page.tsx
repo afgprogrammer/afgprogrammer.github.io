@@ -84,7 +84,7 @@ export default function Home() {
               <span
                 style={{
                   color:
-                    "light-dark(var(--mantine-color-gray-5), var(--mantine-color-blue-2))",
+                    "light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2))",
                 }}
               >
                 scalable code.
