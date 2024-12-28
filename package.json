@@ -21,7 +21,7 @@
     "@tiptap/extension-link": "^2.4.0",
     "@tiptap/react": "^2.4.0",
     "@tiptap/starter-kit": "^2.4.0",
-    "next": "14.2.4",
+    "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18"
   },
