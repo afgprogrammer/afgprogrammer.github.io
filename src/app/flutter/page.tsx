@@ -110,7 +110,7 @@ export default function AboutMe() {
         <Grid>
           {examples.map((day) => {
             return (
-              <GridCol span={4}>
+              <GridCol span={{ lg: 4, sm: 6, xs: 12 }}>
                 <Card radius="md" withBorder style={{ overflow: "hidden" }}>
                   <CardSection>
                     <Box>

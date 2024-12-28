@@ -1,5 +1,6 @@
 import { Box, Button, Divider, Group, Space, Stack, Text } from "@mantine/core";
 import { IconArrowRight, IconDownload } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function WorkSection() {
   return (
@@ -11,6 +12,8 @@ export default function WorkSection() {
         <Button
           variant="default"
           // color="black"
+          component={Link}
+          href={"/flutter"}
           size="lg"
           radius="xl"
           rightSection={<IconArrowRight />}

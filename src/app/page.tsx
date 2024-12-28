@@ -60,7 +60,7 @@ export default function Home() {
         <Box style={{ position: "relative" }}>
           <Title
             order={1}
-            fz={20}
+            fz={32}
             c={"light-dark(var(--mantine-color-dark-9), white)"}
           >
             Hey 👋🏼 I'm{" "}
@@ -72,35 +72,28 @@ export default function Home() {
             >
               Mohammad.
             </span>{" "}
-            <br />
-            <span
+            <Space h={16} />
+            <Text
+              fz={{ lg: 85, sm: 65, xs: 45, base: 45 }}
+              fw={900}
               style={{
-                fontSize: 85,
-                fontWeight: 900,
-                letterSpacing: 1,
+                lineHeight: "1.1",
               }}
             >
               Building the future with clean, efficient, and{" "}
-              <Text
-                variant="text"
-                component="span"
-                // gradient={{ from: "green", to: "blue", deg: 90 }}
-                fz={85}
-                fw={900}
+              <span
                 style={{
-                  // background: "linear-gradient(45deg, red, blue)",
-                  // backgroundClip: "text",
                   color:
-                    "light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2))",
+                    "light-dark(var(--mantine-color-gray-5), var(--mantine-color-blue-2))",
                 }}
               >
                 scalable code.
-              </Text>
-            </span>
+              </span>
+            </Text>
           </Title>
           <Space h={20} />
           <Text
-            fz={30}
+            fz={{ lg: 30, xs: 26, base: 26 }}
             c="light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-2))"
           >
             I care a lot about using design for positive impact and enjoy
@@ -121,8 +114,9 @@ export default function Home() {
             <Button
               variant="default"
               component={Link}
-              href="#"
+              href="https://github.com/afgprogrammer"
               radius="xl"
+              target="_blank"
               leftSection={<IconBrandGithub size={18} />}
             >
               Github
@@ -130,8 +124,9 @@ export default function Home() {
             <Button
               variant="default"
               component={Link}
-              href="#"
+              href="https://youtube.com/afgprogrammer"
               radius="xl"
+              target="_blank"
               leftSection={<IconBrandYoutube size={18} />}
             >
               Youtube
@@ -139,8 +134,9 @@ export default function Home() {
             <Button
               variant="default"
               component={Link}
-              href="#"
+              href="https://instagram.com/afgprogrammer"
               radius="xl"
+              target="_blank"
               leftSection={<IconBrandInstagram size={18} />}
             >
               Instagram
@@ -155,12 +151,12 @@ export default function Home() {
       <Space h={150} />
       <Container size="xl" pos="relative">
         <Grid>
-          <GridCol span={8}>
-            <Title order={2} fz={65} fw={600}>
+          <GridCol span={{ lg: 8 }}>
+            <Title order={2} fz={{ lg: 65 }} fw={600}>
               Transforming ideas into elegant, functional digital solutions.
             </Title>
           </GridCol>
-          <GridCol span={4}>
+          <GridCol span={{ lg: 4 }}>
             <Space h={16} />
             <Text fz={18}>
               I'm a Full-Stack Software Developer living in Kabul 🇦🇫, and I
@@ -184,7 +180,7 @@ export default function Home() {
           </GridCol>
         </Grid>
         <Space h={150} />
-        <WorkSection />
+        {/* <WorkSection /> */}
       </Container>
       <SiteFooter />
     </>

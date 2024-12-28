@@ -4,18 +4,27 @@ import {
   Container,
   Divider,
   Group,
+  SimpleGrid,
   Space,
   Text,
   Title,
 } from "@mantine/core";
 import { IconArrowUpRight } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function SiteFooter() {
   return (
     <>
       <Box py={60} bg="gray.3" mt={80}>
         <Container size="lg">
-          <Title order={2} fz={80} ta="center" fw={900} c="black" lh={1.2}>
+          <Title
+            order={2}
+            fz={{ md: 80, xs: 48, base: 48 }}
+            ta="center"
+            fw={900}
+            c="black"
+            lh={1.2}
+          >
             Want to create something{" "}
             <span style={{ color: "var(--mantine-color-gray-6)" }}>
               awesome?
@@ -47,20 +56,52 @@ export default function SiteFooter() {
             A freelance software developer base in Kabul.
           </Text>
           <Space h={50} />
-          <Group grow>
-            <Button variant="outline" color="gray" radius="xl" c="white">
+          <SimpleGrid cols={{ lg: 4, xs: 2 }}>
+            <Button
+              variant="outline"
+              component={Link}
+              target="_blank"
+              href="https://github.com/afgprogrammer"
+              color="gray"
+              radius="xl"
+              c="white"
+            >
               Github
             </Button>
-            <Button variant="outline" color="gray" radius="xl" c="white">
+            <Button
+              variant="outline"
+              component={Link}
+              target="_blank"
+              href="https://youtube.com/afgprogrammer"
+              color="gray"
+              radius="xl"
+              c="white"
+            >
               Youtube
             </Button>
-            <Button variant="outline" color="gray" radius="xl" c="white">
+            <Button
+              variant="outline"
+              component={Link}
+              target="_blank"
+              href="https://instagram.com/afgprogrammer"
+              color="gray"
+              radius="xl"
+              c="white"
+            >
               Instagram
             </Button>
-            <Button variant="outline" color="gray" radius="xl" c="white">
+            <Button
+              variant="outline"
+              component={Link}
+              target="_blank"
+              href="https://linkedin.com/in/afgprogrammer"
+              color="gray"
+              radius="xl"
+              c="white"
+            >
               Linked In
             </Button>
-          </Group>
+          </SimpleGrid>
           <Space h={50} />
           <Text c="gray" ta="center">
             ©2024. Designed by afgprogrammer
