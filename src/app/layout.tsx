@@ -25,7 +25,7 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body className={inter.className}>
-        <MantineProvider>
+        <MantineProvider defaultColorScheme="dark">
           <HeaderMenu />
           {children}
         </MantineProvider>
