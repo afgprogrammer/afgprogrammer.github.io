@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 import { ColorSchemeScript, MantineProvider, createTheme } from "@mantine/core";
 import { HeaderMenu } from "@/_components/header/HeaderMenu";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           {children}
         </MantineProvider>
       </body>
+      <GoogleAnalytics gaId="G-FY5MJ6XL2Q" />
     </html>
   );
 }
