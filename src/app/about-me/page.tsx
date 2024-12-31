@@ -35,10 +35,8 @@ export default function AboutMe() {
                 color:
                   "light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2))",
               }}
-            >
-              About me
-            </span>
-            , a Software Developer living in Kabul 🇦🇫
+            ></span>
+            Code Artist with a Flair for Flutter Development 🚀
           </Title>
         </Box>
         <Space h={100} />
@@ -53,21 +51,19 @@ export default function AboutMe() {
           </GridCol>
           <GridCol span={{ lg: 8 }} mx="auto" mt={50}>
             <Text fz={{ sm: 24, xs: 16 }} c="light-dark(black, white)">
-              I&apos;m <strong>Mohammad Rahmani</strong>, a seasoned programmer
-              with over a decade of experience in the dynamic world of{" "}
-              <strong>software development</strong>. My journey in programming
-              has been both challenging and rewarding, allowing me to hone my
-              skills across various programming languages and technologies.
+              I&apos;m <strong>Mohammad Rahmani</strong>, a programmer who
+              enjoys the creative process of turning challenges into
+              opportunities. My work is fueled by a passion for innovation and a
+              dedication to mastering new tools and techniques.
             </Text>
             <Text fz={{ sm: 24, xs: 16 }} mt={32} c="light-dark(black, white)">
-              Throughout my career, I have had the privilege to work on a
-              diverse array of projects ranging from{" "}
-              <strong>web applications</strong> to complex enterprise solutions.
-              However, my true passion lies in{" "}
-              <strong>mobile application development</strong>. Leveraging the
-              power of <strong>Flutter</strong>, I have developed numerous
-              applications that are not only robust and scalable but also
-              provide seamless and engaging <strong>user experiences</strong>.
+              I&apos;ve been fortunate to <strong>contribute</strong> to an
+              array of projects, from crafting efficient{" "}
+              <strong>web applications</strong> to engineering{" "}
+              <strong>enterprise-grade</strong> solutions. Still, mobile
+              development remains my favorite canvas. <strong>Flutter</strong>{" "}
+              lets me design apps that are as functional as they are engaging,
+              delivering <strong>flawless</strong> user journeys.
             </Text>
             <Text fz={{ sm: 24, xs: 16 }} mt={32} c="light-dark(black, white)">
               With a commitment to excellence and a passion for innovation, I am
@@ -129,9 +125,16 @@ export default function AboutMe() {
                   <Text fz={18} fw={600} lts={0.8}>
                     Software Developer
                   </Text>
-                  <Text c="gray">Netlinks Ltd</Text>
+                  <Text
+                    c="gray"
+                    component={Link}
+                    href="https://netlinks.net"
+                    target="_blank"
+                  >
+                    Netlinks Ltd
+                  </Text>
                 </Stack>
-                <Text c="gray">2018 - 2020</Text>
+                <Text c="gray">2018 - 2022</Text>
               </Group>
             </Box>
             <Divider my={20} />
@@ -142,18 +145,6 @@ export default function AboutMe() {
                     Content Creator
                   </Text>
                   <Text c="gray">Youtube</Text>
-                </Stack>
-                <Text c="gray">2019 - present</Text>
-              </Group>
-            </Box>
-            <Divider my={20} />
-            <Box>
-              <Group justify="space-between">
-                <Stack gap={5}>
-                  <Text fz={18} fw={600} lts={0.8}>
-                    Freelance Software Developer
-                  </Text>
-                  <Text c="gray">Afgprogrammer</Text>
                 </Stack>
                 <Text c="gray">2019 - present</Text>
               </Group>
