@@ -83,7 +83,7 @@ export function HeaderMenu() {
           <UnstyledButton component={Link} href="/" title="afgprogrammer">
             <Group gap={8}>
               <Avatar
-                src={"/logo/afgprogrammer-logo.png"}
+                src={"/logo/afgprogrammer.jpg"}
                 name="Mohammad Rahmani - Afgprogrammer"
               />
               <Text fz={20} fw={600}>
