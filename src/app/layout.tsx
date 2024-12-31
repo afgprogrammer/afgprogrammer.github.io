@@ -8,12 +8,10 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Afgprogrammer",
-  description: "I have followed setup instructions carefully",
+  title: "Noor Mohammad Rahmani - Afgprogrammer",
+  description:
+    "I'm a Full-Stack Software Developer living in Kabul 🇦🇫, and I focus on making digital experiences that are easy to use, enjoyable, and get the job done. I love tackling challenging problems and creating solutions that truly matter to people.",
 };
-
-// const themeObject = createTheme({
-// })
 
 export default function RootLayout({
   children,
