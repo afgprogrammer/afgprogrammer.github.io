@@ -104,7 +104,7 @@ export default function SiteFooter() {
           </SimpleGrid>
           <Space h={50} />
           <Text c="gray" ta="center">
-            ©2024. Designed by afgprogrammer
+            ©2025. Designed by afgprogrammer
           </Text>
         </Container>
       </footer>
