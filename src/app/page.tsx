@@ -1,32 +1,25 @@
+"use client";
+
 import Link from "next/link";
-import styles from "./page.module.css";
 import {
   Box,
   Button,
-  Card,
-  CardSection,
   Container,
-  Divider,
   Grid,
   GridCol,
   Group,
-  Image,
   Space,
-  Stack,
   Text,
   Title,
 } from "@mantine/core";
-import classes from "./page.module.css";
 import {
   IconArrowRight,
-  IconArrowUpRight,
   IconBrandGithub,
   IconBrandInstagram,
   IconBrandYoutube,
 } from "@tabler/icons-react";
 import SiteFooter from "@/_components/footer/Footer";
 import { BannerAnimation } from "@/_components/banner/BannerAnimation";
-import WorkSection from "@/_components/works/WorkSection";
 
 export default function Home() {
   const images = [
@@ -102,14 +95,6 @@ export default function Home() {
         </Box>
         <Space h={50} />
         <Group justify="space-between">
-          {/* <Group>
-            <Button color="black" radius="md" size="md">
-              Talk with me
-            </Button>
-            <Button variant="default" radius="md" size="md">
-              See my work
-            </Button>
-          </Group> */}
           <Group>
             <Button
               variant="default"
