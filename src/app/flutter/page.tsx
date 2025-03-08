@@ -28,7 +28,7 @@ interface exampleType {
   tags: string[];
 }
 
-export default function AboutMe() {
+export default function FlutterPage() {
   const [originalData, setOriginalData] = useState<exampleType[]>(
     Days.data.reverse()
   );
