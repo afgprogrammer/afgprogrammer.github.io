@@ -14,6 +14,7 @@ import {
   useMantineTheme,
 } from "@mantine/core";
 import { IconCheck } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function FlutterFoodyPage() {
   const theme = useMantineTheme();
@@ -50,10 +51,26 @@ export default function FlutterFoodyPage() {
           </Group>
           <Space h={32} />
           <Group>
-            <Button color="orange" radius="xl" size="lg" px={32}>
+            <Button
+              component={Link}
+              href="https://instagram.com/theflutterlover"
+              color="orange"
+              radius="xl"
+              size="lg"
+              px={32}
+              target="_blank"
+            >
               Buy Now ($80)
             </Button>
-            <Button color="orange" variant="outline" radius="xl" size="lg">
+            <Button
+              component={Link}
+              href="https://foody-ui-kit.vercel.app/"
+              color="orange"
+              variant="outline"
+              radius="xl"
+              size="lg"
+              target="_blank"
+            >
               Online Demo
             </Button>
           </Group>
