@@ -82,7 +82,7 @@ export default function FlutterFoodyPage() {
               size="lg"
               target="_blank"
             >
-              Online Demo
+              Live Demo
             </Button>
           </Group>
         </GridCol>
