@@ -1,6 +1,6 @@
 import classes from "@/_components/banner/BannerAnimation.module.css";
 
-const BannerAnimation = ({ images, speed = 5000 }) => {
+const BannerAnimation = ({ images, speed = 1000 }) => {
   return (
     <div className={classes.inner}>
       <div className={classes.wrapper}>
