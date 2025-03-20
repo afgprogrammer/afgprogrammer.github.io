@@ -1,9 +1,13 @@
 "use client";
 
-import { Box, GridCol } from "@mantine/core";
+import { Box, GridCol, Image } from "@mantine/core";
 
 export default function ImageView() {
-  const deviceWidth = document.documentElement.clientWidth;
+  let deviceWidth = 1024;
+
+  if (typeof document !== "undefined") {
+    deviceWidth = document.documentElement.clientWidth;
+  }
 
   return (
     <GridCol
@@ -27,7 +31,7 @@ export default function ImageView() {
         ></Box>
       )}
       {deviceWidth > 768 ? (
-        <img
+        <Image
           src="/images/foody-vertical.png"
           alt="Foody UI Kit"
           style={{
@@ -39,7 +43,7 @@ export default function ImageView() {
           }}
         />
       ) : (
-        <img
+        <Image
           src="/images/foody-vertical.png"
           alt="Foody UI Kit"
           style={{
