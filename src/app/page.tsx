@@ -2,12 +2,15 @@
 
 import Link from "next/link";
 import {
+  Badge,
   Box,
   Button,
   Container,
+  Divider,
   Grid,
   GridCol,
   Group,
+  Image,
   Space,
   Text,
   Title,
@@ -161,6 +164,88 @@ export default function Home() {
               href="/about-me"
             >
               About Me
+            </Button>
+          </GridCol>
+        </Grid>
+        <Space h={150} />
+      </Container>
+      <Container size="xl" pos="relative">
+        <Group>
+          <Title order={3} fz={{ lg: 42 }} fw={600}>
+            Featured Projects
+          </Title>
+        </Group>
+        <Divider my={32} />
+        <Grid gutter={{ lg: 62, base: 16 }}>
+          <GridCol span={{ lg: 6 }}>
+            <Box
+              style={{
+                background: "linear-gradient(45deg, red, #1a00ef)",
+                // height: 500,
+                borderRadius: 24,
+                overflow: "hidden",
+              }}
+            >
+              <Image
+                src={"/kits/flutter-docy-ui-kit.png"}
+                alt="Flutter docy ui kit"
+              />
+            </Box>
+            <Text fz={18} mt={16} fw={600}>
+              Doctor Appointment Booking with AI
+            </Text>
+            <Text c="gray.7" mt={4}>
+              A Flutter UI Kit for Doctor Appointment Booking with AI, and it is
+              a complete solution for your next project.
+            </Text>
+            <Space h={12} />
+            <Badge variant="light" size="lg" color="black">
+              Coming Soon
+            </Badge>
+            {/* <Button
+              radius="xl"
+              color="black"
+              variant="outline"
+              size="md"
+              component={Link}
+              href="/projects"
+              rightSection={<IconArrowRight />}
+            >
+              Buy Now
+            </Button> */}
+          </GridCol>
+          <GridCol span={{ lg: 6 }}>
+            <Box
+              style={{
+                background: "linear-gradient(45deg, red, #1a00ef)",
+                // height: 500,
+                borderRadius: 24,
+                overflow: "hidden",
+              }}
+            >
+              <Image
+                src={"/kits/flutter-foody-ui-kit.png"}
+                alt="Flutter foody ui kit"
+              />
+            </Box>
+            <Text fz={18} mt={16} fw={600}>
+              Food Delivery App UI Kit
+            </Text>
+            <Text c="gray.7" mt={4}>
+              A Flutter UI Kit for Food Delivery App, and it is a complete
+              solution for your next project.
+            </Text>
+            <Space h={32} />
+            <Button
+              radius="xl"
+              color="black"
+              variant="outline"
+              size="md"
+              component={Link}
+              href="/flutter/foody-ui-kit"
+              rightSection={<IconArrowRight />}
+            >
+              Buy Now
             </Button>
           </GridCol>
         </Grid>
