@@ -180,7 +180,33 @@ export default function Home() {
           <GridCol span={{ lg: 6 }}>
             <Box
               style={{
-                background: "linear-gradient(45deg, red, #1a00ef)",
+                background: "#eee",
+                // height: 500,
+                borderRadius: 24,
+                overflow: "hidden",
+              }}
+            >
+              <Image
+                src={"/kits/flutter-koor-ui-kit.png"}
+                alt="Flutter koor ui kit"
+              />
+            </Box>
+            <Text fz={18} mt={16} fw={600}>
+              Real Estate Application UI Kit
+            </Text>
+            <Text c="gray.7" mt={4}>
+              A Flutter UI Kit for Real Estate Application, and it is a complete
+              solution for your next project.
+            </Text>
+            <Space h={12} />
+            <Badge variant="light" size="lg" color="light-dark(black, #fff)">
+              Coming Soon
+            </Badge>
+          </GridCol>
+          <GridCol span={{ lg: 6 }}>
+            <Box
+              style={{
+                background: "#eee",
                 // height: 500,
                 borderRadius: 24,
                 overflow: "hidden",
@@ -199,7 +225,7 @@ export default function Home() {
               a complete solution for your next project.
             </Text>
             <Space h={12} />
-            <Badge variant="light" size="lg" color="black">
+            <Badge variant="light" size="lg" color="light-dark(black, #fff)">
               Coming Soon
             </Badge>
             {/* <Button
@@ -217,7 +243,7 @@ export default function Home() {
           <GridCol span={{ lg: 6 }}>
             <Box
               style={{
-                background: "linear-gradient(45deg, red, #1a00ef)",
+                background: "#eee",
                 // height: 500,
                 borderRadius: 24,
                 overflow: "hidden",
@@ -238,7 +264,7 @@ export default function Home() {
             <Space h={32} />
             <Button
               radius="xl"
-              color="black"
+              color="light-dark(black, #fff)"
               variant="outline"
               size="md"
               component={Link}
