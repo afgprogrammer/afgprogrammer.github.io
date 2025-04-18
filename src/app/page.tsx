@@ -29,11 +29,11 @@ export default function Home() {
     "/banner/one.png",
     "/banner/two.png",
     "/banner/three.png",
-    "/banner/four.png",
+    "/banner/five.png",
     "/banner/one.png",
     "/banner/two.png",
     "/banner/three.png",
-    "/banner/four.png",
+    "/banner/five.png",
   ].map((image) => ({
     // id: crypto.randomUUID(),
     image,
@@ -199,9 +199,17 @@ export default function Home() {
               solution for your next project.
             </Text>
             <Space h={12} />
-            <Badge variant="light" size="lg" color="light-dark(black, #fff)">
-              Coming Soon
-            </Badge>
+            <Button
+              radius="xl"
+              color="light-dark(black, #fff)"
+              variant="outline"
+              size="md"
+              component={Link}
+              href="/flutter/koor-ui-kit"
+              rightSection={<IconArrowRight />}
+            >
+              Buy Now
+            </Button>
           </GridCol>
           <GridCol span={{ lg: 6 }}>
             <Box
