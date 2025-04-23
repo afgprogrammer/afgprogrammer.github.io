@@ -194,12 +194,16 @@ export default function Home() {
             <Text fz={18} mt={16} fw={600}>
               Real Estate Application UI Kit
             </Text>
-            <Text c="gray.7" mt={4}>
+            <Text
+              c={
+                "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0))"
+              }
+              mt={4}
+            >
               A Flutter UI Kit for Real Estate Application, and it is a complete
               solution for your next project.
             </Text>
-            <Space h={12} />
-
+            <Space h={24} />
             <Button
               radius="xl"
               color="light-dark(black, #fff)"
@@ -229,25 +233,27 @@ export default function Home() {
             <Text fz={18} mt={16} fw={600}>
               Doctor Appointment Booking with AI
             </Text>
-            <Text c="gray.7" mt={4}>
+            <Text
+              c={
+                "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0))"
+              }
+              mt={4}
+            >
               A Flutter UI Kit for Doctor Appointment Booking with AI, and it is
               a complete solution for your next project.
             </Text>
-            <Space h={12} />
-            <Badge variant="light" size="lg" color="light-dark(black, #fff)">
-              Coming Soon
-            </Badge>
-            {/* <Button
+            <Space h={24} />
+            <Button
               radius="xl"
-              color="black"
+              color="light-dark(black, #fff)"
               variant="outline"
               size="md"
               component={Link}
-              href="/projects"
+              href="/flutter/docy-ui-kit"
               rightSection={<IconArrowRight />}
             >
               Buy Now
-            </Button> */}
+            </Button>
           </GridCol>
           <GridCol span={{ lg: 6 }}>
             <Box
@@ -266,11 +272,16 @@ export default function Home() {
             <Text fz={18} mt={16} fw={600}>
               Food Delivery App UI Kit
             </Text>
-            <Text c="gray.7" mt={4}>
+            <Text
+              c={
+                "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0))"
+              }
+              mt={4}
+            >
               A Flutter UI Kit for Food Delivery App, and it is a complete
               solution for your next project.
             </Text>
-            <Space h={32} />
+            <Space h={24} />
             <Button
               radius="xl"
               color="light-dark(black, #fff)"
