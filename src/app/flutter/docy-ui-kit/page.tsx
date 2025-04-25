@@ -45,7 +45,7 @@ export default function FlutterDocyPage() {
           <Space h={16} />
           <Group>
             <IconCheck color={"var(--mantine-color-green-5)"} />
-            <Text fz={18}>50+ Screens</Text>
+            <Text fz={18}>60+ Screens</Text>
           </Group>
           <Space h={8} />
           <Group>
@@ -73,7 +73,7 @@ export default function FlutterDocyPage() {
               px={32}
               target="_blank"
             >
-              Buy Now ($128)
+              Buy Now ($146)
             </Button>
             <Button
               component={Link}
