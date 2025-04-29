@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "/kits/flutter-foody-ui-kit.png",
+        url: "https://afgprogrammer.com/kits/flutter-foody-ui-kit.png",
         width: 1200,
         height: 630,
         alt: "Flutter Online Food Delivery Application UI Kit",
@@ -28,7 +28,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/kits/flutter-foody-ui-kit.png"],
+    images: ["https://afgprogrammer.com/kits/flutter-foody-ui-kit.png"],
   },
 };
 
