@@ -16,6 +16,20 @@ export const metadata = {
   title: "Flutter Online Doctor Appointment Booking Application UI Kit",
   description:
     "A beautiful and modern online doctor appointment booking application UI Kit designed with Flutter. ",
+  openGraph: {
+    images: [
+      {
+        url: "/kits/flutter-docy-ui-kit.png",
+        width: 1200,
+        height: 630,
+        alt: "Flutter Online Doctor Appointment Booking Application UI Kit",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/kits/flutter-docy-ui-kit.png"],
+  },
 };
 
 export default function FlutterDocyPage() {

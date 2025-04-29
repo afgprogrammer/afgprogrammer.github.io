@@ -16,6 +16,20 @@ export const metadata = {
   title: "Flutter Online Food Delivery Application UI Kit",
   description:
     "A beautiful and modern online food delivery application UI Kit designed with Flutter. Featuring 40+ screens, 100+ components, clean code, and ease of use.",
+  openGraph: {
+    images: [
+      {
+        url: "/kits/flutter-foody-ui-kit.png",
+        width: 1200,
+        height: 630,
+        alt: "Flutter Online Food Delivery Application UI Kit",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/kits/flutter-foody-ui-kit.png"],
+  },
 };
 
 export default function FlutterFoodyPage() {

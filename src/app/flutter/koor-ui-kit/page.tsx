@@ -16,6 +16,20 @@ export const metadata = {
   title: "Flutter Real Estate Application UI Kit",
   description:
     "A beautiful and modern real estate application UI Kit designed with Flutter. It includes 40+ screens and 100+ components, all built with clean code and easy to use.",
+  openGraph: {
+    images: [
+      {
+        url: "/kits/flutter-koor-ui-kit.png",
+        width: 1200,
+        height: 630,
+        alt: "Flutter Real Estate Application UI Kit",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/kits/flutter-koor-ui-kit.png"],
+  },
 };
 
 export default function FlutterKoorPage() {
