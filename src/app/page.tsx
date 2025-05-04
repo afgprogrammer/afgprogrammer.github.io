@@ -30,10 +30,12 @@ export default function Home() {
     "/banner/two.png",
     "/banner/three.png",
     "/banner/five.png",
+    "/banner/six.png",
     "/banner/one.png",
     "/banner/two.png",
     "/banner/three.png",
     "/banner/five.png",
+    "/banner/six.png",
   ].map((image) => ({
     // id: crypto.randomUUID(),
     image,
