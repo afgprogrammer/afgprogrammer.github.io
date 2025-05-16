@@ -153,6 +153,46 @@ export default function Home() {
               }}
             >
               <Image
+                src={"/kits/flutter-homy-ui-kit.png"}
+                alt="Flutter fry ui kit"
+              />
+            </Box>
+            <Text fz={18} mt={16} fw={600}>
+              Home Service Application UI Kit
+            </Text>
+            <Text
+              c={
+                "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0))"
+              }
+              mt={4}
+            >
+              A Flutter UI Kit for Home Service Application, and it is a
+              complete solution for your next project.
+            </Text>
+            <Space h={24} />
+            <Button
+              radius="xl"
+              color="light-dark(black, #fff)"
+              variant="outline"
+              size="md"
+              disabled
+              // component={Link}
+              // href="/flutter/fry-ui-kit"
+              rightSection={<IconArrowRight />}
+            >
+              Coming Soon
+            </Button>
+          </GridCol>
+          <GridCol span={{ lg: 6 }}>
+            <Box
+              style={{
+                background: "#eee",
+                // height: 500,
+                borderRadius: 24,
+                overflow: "hidden",
+              }}
+            >
+              <Image
                 src={"/kits/flutter-fry-ui-kit.png"}
                 alt="Flutter fry ui kit"
               />
