@@ -16,7 +16,7 @@ export default function ImageView() {
       h={700}
       style={{ overflow: "hidden" }}
     >
-      {/* {deviceWidth > 768 && (
+      {deviceWidth > 768 && (
         <Box
           w={350}
           h={350}
@@ -29,24 +29,22 @@ export default function ImageView() {
             filter: "blur(100px)",
           }}
         ></Box>
-      )} */}
+      )}
       {deviceWidth > 768 ? (
         <Image
-          src="/kits/flutter-docy-ui-kit.png"
+          src="/images/docy-vertical.png"
           alt="Koor Flutter Application UI Kit"
-          style={
-            {
-              // position: "relative",
-              // width: "100%",
-              // left: 120,
-              // top: -220,
-              // transform: "rotate(-10deg)",
-            }
-          }
+          style={{
+            position: "relative",
+            width: "100%",
+            left: 120,
+            top: -220,
+            transform: "rotate(-10deg)",
+          }}
         />
       ) : (
         <Image
-          src="/kits/flutter-docy-ui-kit.png"
+          src="/images/docy-vertical.png"
           alt="Koor Flutter Application UI Kit"
           style={{
             position: "relative",
