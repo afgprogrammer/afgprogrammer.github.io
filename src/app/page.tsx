@@ -82,7 +82,7 @@ export default function Home() {
               <span
                 style={{
                   color:
-                    "light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2))",
+                    "light-dark(var(--mantine-color-pink-9), var(--mantine-color-dark-2))",
                 }}
               >
                 scalable code.
@@ -134,47 +134,11 @@ export default function Home() {
           </Group>
         </Group>
       </Container>
-      <Space h={150} />
-      <Box>
-        <BannerAnimation images={images} speed={100000} />
-      </Box>
-      <Space h={150} />
-      <Container size="xl" pos="relative">
-        <Grid>
-          <GridCol span={{ lg: 8 }}>
-            <Title order={2} fz={{ lg: 65 }} fw={600}>
-              Transforming ideas into elegant, functional digital solutions.
-            </Title>
-          </GridCol>
-          <GridCol span={{ lg: 4 }}>
-            <Space h={16} />
-            <Text fz={18}>
-              I&apos;m a Full-Stack Software Developer living in Kabul 🇦🇫, and I
-              focus on making digital experiences that are easy to use,
-              enjoyable, and get the job done. I love tackling challenging
-              problems and creating solutions that truly matter to people.
-            </Text>
-            <Space h={32} />
-            <Button
-              variant="default"
-              // color="black"
-              size="lg"
-              radius="xl"
-              rightSection={<IconArrowRight />}
-              fz={16}
-              component={Link}
-              href="/about-me"
-            >
-              About Me
-            </Button>
-          </GridCol>
-        </Grid>
-        <Space h={150} />
-      </Container>
+      <Space h={100} />
       <Container size="xl" pos="relative">
         <Group>
-          <Title order={3} fz={{ lg: 42 }} fw={600}>
-            Featured Projects
+          <Title order={3} fz={{ lg: 36 }} fw={600}>
+            Featured UI Kits 🔥
           </Title>
         </Group>
         <Divider my={32} />
@@ -184,6 +148,44 @@ export default function Home() {
               style={{
                 background: "#eee",
                 // height: 500,
+                borderRadius: 24,
+                overflow: "hidden",
+              }}
+            >
+              <Image
+                src={"/kits/flutter-fry-ui-kit.png"}
+                alt="Flutter fry ui kit"
+              />
+            </Box>
+            <Text fz={18} mt={16} fw={600}>
+              Beauty Appointment Application UI Kit
+            </Text>
+            <Text
+              c={
+                "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0))"
+              }
+              mt={4}
+            >
+              A Flutter UI Kit for Beauty Appointment Application, and it is a
+              complete solution for your next project.
+            </Text>
+            <Space h={24} />
+            <Button
+              radius="xl"
+              color="light-dark(black, #fff)"
+              variant="outline"
+              size="md"
+              component={Link}
+              href="/flutter/fry-ui-kit"
+              rightSection={<IconArrowRight />}
+            >
+              Buy Now
+            </Button>
+          </GridCol>
+          <GridCol span={{ lg: 6 }}>
+            <Box
+              style={{
+                background: "#eee",
                 borderRadius: 24,
                 overflow: "hidden",
               }}
@@ -294,6 +296,42 @@ export default function Home() {
               rightSection={<IconArrowRight />}
             >
               Buy Now
+            </Button>
+          </GridCol>
+        </Grid>
+        <Space h={150} />
+      </Container>
+      <Box>
+        <BannerAnimation images={images} speed={100000} />
+      </Box>
+      <Space h={150} />
+      <Container size="xl" pos="relative">
+        <Grid>
+          <GridCol span={{ lg: 8 }}>
+            <Title order={2} fz={{ lg: 65 }} fw={600}>
+              Transforming ideas into elegant, functional digital solutions.
+            </Title>
+          </GridCol>
+          <GridCol span={{ lg: 4 }}>
+            <Space h={16} />
+            <Text fz={18}>
+              I&apos;m a Full-Stack Software Developer living in Kabul 🇦🇫, and I
+              focus on making digital experiences that are easy to use,
+              enjoyable, and get the job done. I love tackling challenging
+              problems and creating solutions that truly matter to people.
+            </Text>
+            <Space h={32} />
+            <Button
+              variant="default"
+              // color="black"
+              size="lg"
+              radius="xl"
+              rightSection={<IconArrowRight />}
+              fz={16}
+              component={Link}
+              href="/about-me"
+            >
+              About Me
             </Button>
           </GridCol>
         </Grid>
