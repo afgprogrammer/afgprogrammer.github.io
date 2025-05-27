@@ -193,6 +193,45 @@ export default function Home() {
               }}
             >
               <Image
+                src={"/kits/flutter-furnix-ui-kit.png"}
+                alt="Flutter furnix ui kit"
+              />
+            </Box>
+            <Text fz={18} mt={16} fw={600}>
+              Furniture Store Application UI Kit
+            </Text>
+            <Text
+              c={
+                "light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0))"
+              }
+              mt={4}
+            >
+              A Flutter UI Kit for Furniture Store Application, and it is a
+              complete solution for your next project.
+            </Text>
+            <Space h={24} />
+            <Button
+              radius="xl"
+              color="light-dark(black, #fff)"
+              variant="outline"
+              size="md"
+              component={Link}
+              href="/flutter/furnix-ui-kit"
+              rightSection={<IconArrowRight />}
+            >
+              Buy Now
+            </Button>
+          </GridCol>
+          <GridCol span={{ lg: 6 }}>
+            <Box
+              style={{
+                background: "#eee",
+                // height: 500,
+                borderRadius: 24,
+                overflow: "hidden",
+              }}
+            >
+              <Image
                 src={"/kits/flutter-fry-ui-kit.png"}
                 alt="Flutter fry ui kit"
               />
